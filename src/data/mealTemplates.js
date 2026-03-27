@@ -1,5 +1,6 @@
 export const mealTemplates = [
-  // ── CINĂ — PUI ──────────────────────────────────────────
+
+  // ── CINĂ — PUI ──────────────────────────────────────────────────────────
   {
     id: 'wrap-pui-salata',
     name: '🌯 Wrap cu pui & salată',
@@ -15,7 +16,7 @@ export const mealTemplates = [
   },
   {
     id: 'paste-pui',
-    name: '🍝 Paste cu pui',
+    name: '🍝 Paste cu pui & sos',
     type: 'cina',
     proteinType: ['pui'],
     location: ['acasa'],
@@ -23,7 +24,7 @@ export const mealTemplates = [
       { productId: 'paste-penne-fusilli', serving: 80 },
       { productId: 'piept-pui-crud', serving: 150 },
       { productId: 'sos-paste-bio', serving: 150 },
-      { productId: 'parmezan-ras', serving: 15 },
+      { productId: 'pilos-parmezan-ras', serving: 15 },
     ],
   },
   {
@@ -39,8 +40,76 @@ export const mealTemplates = [
       { productId: 'castraveti', serving: 100 },
     ],
   },
+  {
+    id: 'orez-pui-marinat',
+    name: '🍚 Orez cu pui marinat & legume',
+    type: 'cina',
+    proteinType: ['pui'],
+    location: ['acasa'],
+    items: [
+      { productId: 'orez-bob-lung', serving: 80 },
+      { productId: 'piept-pui-marinat', serving: 150 },
+      { productId: 'ardei-gras', serving: 100 },
+      { productId: 'ceapa-rosie', serving: 60 },
+      { productId: 'ulei-floarea-soarelui', serving: 10 },
+    ],
+  },
+  {
+    id: 'salata-caesar-pui',
+    name: '🥗 Salată Caesar cu pui',
+    type: 'cina',
+    proteinType: ['pui'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'salata-verde', serving: 100 },
+      { productId: 'chef-select-piept-pui-gratar', serving: 150 },
+      { productId: 'pilos-parmezan-ras', serving: 20 },
+      { productId: 'rosii-cherry', serving: 80 },
+      { productId: 'paine-toast-alba', serving: 25 },
+    ],
+  },
+  {
+    id: 'fajita-pui',
+    name: '🌮 Fajita cu pui',
+    type: 'cina',
+    proteinType: ['pui'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'tortilla-wraps-integrale', serving: 60 },
+      { productId: 'chef-select-fajita-pui', serving: 175 },
+      { productId: 'ardei-gras', serving: 80 },
+      { productId: 'ceapa-rosie', serving: 50 },
+    ],
+  },
+  {
+    id: 'gyros-pui-lipie',
+    name: '🍗 Gyros pui cu lipie',
+    type: 'cina',
+    proteinType: ['pui'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'lipii-simple', serving: 80 },
+      { productId: 'chef-select-gyros-pui', serving: 150 },
+      { productId: 'rosii', serving: 80 },
+      { productId: 'salata-verde', serving: 50 },
+      { productId: 'pilos-iaurt-grecesc-2', serving: 60 },
+    ],
+  },
+  {
+    id: 'bowl-pui-orez-broccoli',
+    name: '🥦 Bowl pui & broccoli',
+    type: 'cina',
+    proteinType: ['pui'],
+    location: ['acasa'],
+    items: [
+      { productId: 'orez-alb', serving: 80 },
+      { productId: 'piept-pui-crud', serving: 150 },
+      { productId: 'broccoli-congelat', serving: 150 },
+      { productId: 'sos-soia', serving: 15 },
+    ],
+  },
 
-  // ── CINĂ — VITĂ ─────────────────────────────────────────
+  // ── CINĂ — VITĂ ─────────────────────────────────────────────────────────
   {
     id: 'burger-clasic',
     name: '🍔 Burger clasic',
@@ -65,7 +134,7 @@ export const mealTemplates = [
       { productId: 'paste-penne-fusilli', serving: 80 },
       { productId: 'carne-tocata-vita-mix', serving: 120 },
       { productId: 'rosii-pasate', serving: 200 },
-      { productId: 'parmezan-ras', serving: 15 },
+      { productId: 'pilos-parmezan-ras', serving: 15 },
     ],
   },
   {
@@ -81,8 +150,92 @@ export const mealTemplates = [
       { productId: 'pilos-branzica-proaspata', serving: 60 },
     ],
   },
+  {
+    id: 'orez-tocatura-vita',
+    name: '🍚 Orez cu tocătură de vită',
+    type: 'cina',
+    proteinType: ['vita'],
+    location: ['acasa'],
+    items: [
+      { productId: 'orez-bob-lung', serving: 80 },
+      { productId: 'carne-tocata-vita-mix', serving: 130 },
+      { productId: 'rosii-pasate', serving: 150 },
+      { productId: 'ceapa-galbena', serving: 60 },
+    ],
+  },
+  {
+    id: 'lipie-burger-cheddar',
+    name: '🫓 Lipie cu burger & cheddar',
+    type: 'cina',
+    proteinType: ['vita'],
+    location: ['acasa'],
+    items: [
+      { productId: 'lipii-simple', serving: 80 },
+      { productId: 'irish-angus-burger', serving: 150 },
+      { productId: 'milbona-cheddar-felii', serving: 30 },
+      { productId: 'mustar', serving: 15 },
+      { productId: 'salata-verde', serving: 40 },
+    ],
+  },
 
-  // ── CINĂ — PEȘTE ────────────────────────────────────────
+  // ── CINĂ — PORC ─────────────────────────────────────────────────────────
+  {
+    id: 'cotlet-porc-legume',
+    name: '🥩 Cotlet de porc cu legume',
+    type: 'cina',
+    proteinType: ['porc'],
+    location: ['acasa'],
+    items: [
+      { productId: 'cotlet-porc-fara-os', serving: 200 },
+      { productId: 'ardei-gras', serving: 100 },
+      { productId: 'dovlecei', serving: 150 },
+      { productId: 'ceapa-rosie', serving: 60 },
+      { productId: 'ulei-masline', serving: 10 },
+    ],
+  },
+  {
+    id: 'paste-carbonara-bacon',
+    name: '🍝 Paste carbonara cu bacon',
+    type: 'cina',
+    proteinType: ['porc'],
+    location: ['acasa'],
+    items: [
+      { productId: 'paste-spaghetti', serving: 80 },
+      { productId: 'pikok-bacon-porc', serving: 60 },
+      { productId: 'camara-smantana-cooking', serving: 50 },
+      { productId: 'pilos-parmezan-ras', serving: 15 },
+      { productId: 'pilos-oua-10', serving: 60 },
+    ],
+  },
+  {
+    id: 'wrap-muschi-porc',
+    name: '🌯 Wrap cu mușchi de porc',
+    type: 'cina',
+    proteinType: ['porc'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'tortilla-wraps-integrale', serving: 60 },
+      { productId: 'muschiulet-porc', serving: 150 },
+      { productId: 'salata-verde', serving: 50 },
+      { productId: 'mustar', serving: 15 },
+      { productId: 'rosii', serving: 80 },
+    ],
+  },
+  {
+    id: 'muschi-porc-orez',
+    name: '🍚 Mușchi de porc cu orez',
+    type: 'cina',
+    proteinType: ['porc'],
+    location: ['acasa'],
+    items: [
+      { productId: 'orez-bob-lung', serving: 80 },
+      { productId: 'muschi-porc', serving: 150 },
+      { productId: 'broccoli-congelat', serving: 120 },
+      { productId: 'sos-soia', serving: 15 },
+    ],
+  },
+
+  // ── CINĂ — PEȘTE ────────────────────────────────────────────────────────
   {
     id: 'paste-ton',
     name: '🍝 Paste cu ton',
@@ -93,12 +246,12 @@ export const mealTemplates = [
       { productId: 'paste-penne-fusilli', serving: 80 },
       { productId: 'ton-conserva-suc-propriu', serving: 160 },
       { productId: 'rosii-pasate', serving: 150 },
-      { productId: 'parmezan-ras', serving: 15 },
+      { productId: 'pilos-parmezan-ras', serving: 15 },
     ],
   },
   {
     id: 'wrap-ton',
-    name: '🌯 Wrap cu ton',
+    name: '🌯 Wrap cu ton & salată',
     type: 'cina',
     proteinType: ['peste'],
     location: ['acasa', 'birou'],
@@ -107,11 +260,12 @@ export const mealTemplates = [
       { productId: 'ton-conserva-suc-propriu', serving: 120 },
       { productId: 'salata-verde', serving: 50 },
       { productId: 'rosii', serving: 80 },
+      { productId: 'castraveti', serving: 60 },
     ],
   },
   {
     id: 'salata-ton',
-    name: '🥗 Salată cu ton',
+    name: '🥗 Salată mare cu ton',
     type: 'cina',
     proteinType: ['peste'],
     location: ['acasa', 'birou'],
@@ -121,10 +275,66 @@ export const mealTemplates = [
       { productId: 'rosii', serving: 120 },
       { productId: 'castraveti', serving: 100 },
       { productId: 'ulei-masline', serving: 10 },
+      { productId: 'masline-negre', serving: 30 },
+    ],
+  },
+  {
+    id: 'orez-somon',
+    name: '🍚 Orez cu somon',
+    type: 'cina',
+    proteinType: ['peste'],
+    location: ['acasa'],
+    items: [
+      { productId: 'orez-bob-lung', serving: 80 },
+      { productId: 'file-somon-congelat', serving: 150 },
+      { productId: 'broccoli-congelat', serving: 150 },
+      { productId: 'ulei-masline', serving: 10 },
+    ],
+  },
+  {
+    id: 'lipie-ton-branzica',
+    name: '🫓 Lipie cu ton & brânzică',
+    type: 'cina',
+    proteinType: ['peste'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'lipii-simple', serving: 80 },
+      { productId: 'ton-conserva-suc-propriu', serving: 160 },
+      { productId: 'pilos-branzica-proaspata', serving: 60 },
+      { productId: 'rosii', serving: 80 },
+      { productId: 'salata-verde', serving: 40 },
+    ],
+  },
+  {
+    id: 'salata-macrou',
+    name: '🥗 Salată cu macrou',
+    type: 'cina',
+    proteinType: ['peste'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'salata-verde', serving: 100 },
+      { productId: 'macrou-conserva', serving: 125 },
+      { productId: 'rosii-cherry', serving: 80 },
+      { productId: 'ceapa-rosie', serving: 50 },
+      { productId: 'otet-balsamic', serving: 15 },
+      { productId: 'ulei-masline', serving: 10 },
+    ],
+  },
+  {
+    id: 'paste-somon-smantana',
+    name: '🍝 Paste cu somon & smântână',
+    type: 'cina',
+    proteinType: ['peste'],
+    location: ['acasa'],
+    items: [
+      { productId: 'paste-fusilli', serving: 80 },
+      { productId: 'somon-afumat', serving: 80 },
+      { productId: 'camara-smantana-cooking', serving: 80 },
+      { productId: 'pilos-parmezan-ras', serving: 10 },
     ],
   },
 
-  // ── CINĂ — VEGGIE ───────────────────────────────────────
+  // ── CINĂ — VEGGIE ───────────────────────────────────────────────────────
   {
     id: 'wrap-falafel',
     name: '🌯 Wrap cu falafel',
@@ -141,18 +351,144 @@ export const mealTemplates = [
   },
   {
     id: 'paste-sos',
-    name: '🍝 Paste cu sos',
+    name: '🍝 Paste cu sos de roșii',
     type: 'cina',
     proteinType: ['veggie'],
     location: ['acasa'],
     items: [
       { productId: 'paste-penne-fusilli', serving: 100 },
       { productId: 'sos-paste-bio', serving: 200 },
-      { productId: 'parmezan-ras', serving: 20 },
+      { productId: 'pilos-parmezan-ras', serving: 20 },
+    ],
+  },
+  {
+    id: 'paste-pesto',
+    name: '🍝 Paste cu pesto',
+    type: 'cina',
+    proteinType: ['veggie'],
+    location: ['acasa'],
+    items: [
+      { productId: 'paste-penne', serving: 90 },
+      { productId: 'sos-pesto-verde', serving: 40 },
+      { productId: 'pilos-parmezan-ras', serving: 15 },
+      { productId: 'rosii-cherry', serving: 80 },
+    ],
+  },
+  {
+    id: 'lipie-hummus-legume',
+    name: '🫓 Lipie cu hummus & legume',
+    type: 'cina',
+    proteinType: ['veggie'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'lipii-simple', serving: 80 },
+      { productId: 'hummus-clasic', serving: 80 },
+      { productId: 'rosii', serving: 80 },
+      { productId: 'castraveti', serving: 80 },
+      { productId: 'salata-mix-rucola', serving: 50 },
+    ],
+  },
+  {
+    id: 'bowl-naut-orez',
+    name: '🥙 Bowl cu năut & orez',
+    type: 'cina',
+    proteinType: ['veggie'],
+    location: ['acasa'],
+    items: [
+      { productId: 'orez-bob-lung', serving: 80 },
+      { productId: 'naut-conserva', serving: 150 },
+      { productId: 'rosii', serving: 80 },
+      { productId: 'spanac-proaspat', serving: 80 },
+      { productId: 'ulei-masline', serving: 10 },
+    ],
+  },
+  {
+    id: 'salata-fasole-porumb',
+    name: '🥗 Salată cu fasole & porumb',
+    type: 'cina',
+    proteinType: ['veggie'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'salata-verde', serving: 80 },
+      { productId: 'fasole-rosie-conserva', serving: 150 },
+      { productId: 'porumb-conserva', serving: 80 },
+      { productId: 'rosii', serving: 80 },
+      { productId: 'ceapa-rosie', serving: 40 },
+      { productId: 'ulei-masline', serving: 10 },
+    ],
+  },
+  {
+    id: 'tofu-legume-orez',
+    name: '🫘 Tofu cu legume & orez',
+    type: 'cina',
+    proteinType: ['veggie'],
+    location: ['acasa'],
+    items: [
+      { productId: 'orez-bob-lung', serving: 80 },
+      { productId: 'tofu-natur', serving: 150 },
+      { productId: 'broccoli-congelat', serving: 150 },
+      { productId: 'sos-soia', serving: 20 },
+      { productId: 'ulei-floarea-soarelui', serving: 10 },
     ],
   },
 
-  // ── PRÂNZ — BIROU ───────────────────────────────────────
+  // ── CINĂ — MEZELURI / QUICK ─────────────────────────────────────────────
+  {
+    id: 'toast-sunca-cascaval',
+    name: '🥪 Toast cu șuncă & cașcaval',
+    type: 'cina',
+    proteinType: ['porc'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'paine-toast-integrala', serving: 75 },
+      { productId: 'pikok-sunca-piept-pui', serving: 80 },
+      { productId: 'pilos-cascaval-afumat', serving: 40 },
+      { productId: 'rosii', serving: 80 },
+    ],
+  },
+  {
+    id: 'wrap-sunca-praga',
+    name: '🌯 Wrap cu șuncă Praga',
+    type: 'cina',
+    proteinType: ['porc'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'tortilla-wraps-integrale', serving: 60 },
+      { productId: 'pikok-sunca-praga', serving: 80 },
+      { productId: 'milbona-cheddar-felii', serving: 30 },
+      { productId: 'salata-verde', serving: 50 },
+      { productId: 'mustar', serving: 15 },
+    ],
+  },
+  {
+    id: 'omleta-bacon',
+    name: '🍳 Omletă cu bacon',
+    type: 'cina',
+    proteinType: ['porc'],
+    location: ['acasa'],
+    items: [
+      { productId: 'pilos-oua-10', serving: 180 },
+      { productId: 'pikok-bacon-porc', serving: 40 },
+      { productId: 'milbona-cheddar-felii', serving: 30 },
+      { productId: 'rosii-cherry', serving: 80 },
+    ],
+  },
+  {
+    id: 'omleta-sunca-legume',
+    name: '🍳 Omletă cu șuncă & legume',
+    type: 'cina',
+    proteinType: ['pui'],
+    location: ['acasa'],
+    items: [
+      { productId: 'pilos-oua-10', serving: 180 },
+      { productId: 'pikok-sunca-piept-pui', serving: 60 },
+      { productId: 'ardei-gras', serving: 80 },
+      { productId: 'rosii', serving: 80 },
+      { productId: 'ulei-floarea-soarelui', serving: 10 },
+    ],
+  },
+
+  // ── PRÂNZ — BIROU ────────────────────────────────────────────────────────
   {
     id: 'birou-pranz-iaurturi',
     name: '🍶 Iaurturi proteice',
@@ -166,8 +502,46 @@ export const mealTemplates = [
       { productId: 'banane', serving: 120 },
     ],
   },
+  {
+    id: 'birou-bauturi-proteice',
+    name: '🥤 Băuturi proteice',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['birou'],
+    items: [
+      { productId: 'lidl-bautura-proteica-ciocolata', serving: 300 },
+      { productId: 'lidl-bautura-proteica-capsuni', serving: 300 },
+      { productId: 'pilos-iaurt-grecesc-2', serving: 150 },
+      { productId: 'mere', serving: 150 },
+    ],
+  },
+  {
+    id: 'birou-skyr-fructe',
+    name: '🫙 Skyr & fructe birou',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['birou'],
+    items: [
+      { productId: 'pilos-skyr-natur', serving: 250 },
+      { productId: 'pilos-skyr-fructe', serving: 200 },
+      { productId: 'banane', serving: 120 },
+      { productId: 'afine', serving: 80 },
+    ],
+  },
+  {
+    id: 'birou-mix-proteic',
+    name: '💪 Mix proteic birou',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['birou'],
+    items: [
+      { productId: 'milbona-high-protein-drink-cioc', serving: 300 },
+      { productId: 'pilos-branza-cottage', serving: 100 },
+      { productId: 'banane', serving: 120 },
+    ],
+  },
 
-  // ── PRÂNZ — ACASĂ ───────────────────────────────────────
+  // ── PRÂNZ — ACASĂ ───────────────────────────────────────────────────────
   {
     id: 'skyr-fructe',
     name: '🫙 Skyr cu banană',
@@ -176,6 +550,17 @@ export const mealTemplates = [
     location: ['acasa'],
     items: [
       { productId: 'pilos-skyr-natur', serving: 250 },
+      { productId: 'banane', serving: 120 },
+    ],
+  },
+  {
+    id: 'skyr-fructe-banana',
+    name: '🫙 Skyr cu fructe',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'pilos-skyr-fructe', serving: 200 },
       { productId: 'banane', serving: 120 },
     ],
   },
@@ -192,26 +577,139 @@ export const mealTemplates = [
     ],
   },
   {
-    id: 'skyr-fructe-banana',
-    name: '🫙 Skyr cu fructe',
+    id: 'skyr-vanilie-fructe-padure',
+    name: '🫙 Skyr vanilie & fructe de pădure',
     type: 'pranz',
     proteinType: ['any'],
     location: ['acasa'],
     items: [
-      { productId: 'pilos-skyr-fructe', serving: 200 },
-      { productId: 'banane', serving: 120 },
+      { productId: 'pilos-skyr-vanilie', serving: 250 },
+      { productId: 'fructe-padure-congelate', serving: 100 },
+    ],
+  },
+  {
+    id: 'oua-paine-integrala',
+    name: '🥚 Ouă fierte & pâine integrală',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'pilos-oua-10', serving: 180 },
+      { productId: 'paine-toast-integrala', serving: 50 },
+      { productId: 'rosii', serving: 100 },
+    ],
+  },
+  {
+    id: 'cottage-rosii-paine',
+    name: '🧀 Cottage cheese cu roșii cherry',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'pilos-branza-cottage', serving: 200 },
+      { productId: 'rosii-cherry', serving: 100 },
+      { productId: 'paine-toast-integrala', serving: 50 },
+    ],
+  },
+  {
+    id: 'granola-proteica-iaurt',
+    name: '🥣 Granola proteică & iaurt',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'granola-proteica', serving: 60 },
+      { productId: 'pilos-iaurt-grecesc-2', serving: 200 },
+      { productId: 'afine', serving: 80 },
+    ],
+  },
+  {
+    id: 'iaurt-proteic-skyr-mix',
+    name: '💪 Mix iaurt proteic',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'milbona-iaurt-proteic-vanilie', serving: 200 },
+      { productId: 'pilos-skyr-natur', serving: 150 },
+      { productId: 'mere', serving: 150 },
+    ],
+  },
+  {
+    id: 'branza-vaci-fructe',
+    name: '🍓 Brânză de vaci cu fructe',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'pilos-branza-vaci', serving: 200 },
+      { productId: 'banane', serving: 100 },
+      { productId: 'afine', serving: 80 },
+      { productId: 'miere', serving: 10 },
+    ],
+  },
+  {
+    id: 'iaurt-grecesc-bio-fructe',
+    name: '🥣 Iaurt grecesc bio & fructe',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'milbona-iaurt-grecesc-bio-lowfat', serving: 250 },
+      { productId: 'zmeura-congelata', serving: 100 },
+      { productId: 'seminte-chia', serving: 15 },
     ],
   },
 
-  // ── SNACK ────────────────────────────────────────────────
+  // ── SNACK ────────────────────────────────────────────────────────────────
   {
     id: 'snack-bautura-proteica',
-    name: '🥤 Băutură proteică',
+    name: '🥤 Băutură proteică ciocolată',
     type: 'snack',
     proteinType: ['any'],
     location: ['acasa', 'birou'],
     items: [
       { productId: 'lidl-bautura-proteica-ciocolata', serving: 300 },
+    ],
+  },
+  {
+    id: 'snack-bautura-capsuni',
+    name: '🥤 Băutură proteică căpșuni',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'lidl-bautura-proteica-capsuni', serving: 300 },
+    ],
+  },
+  {
+    id: 'snack-bautura-vanilie',
+    name: '🥤 Băutură proteică vanilie',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'lidl-bautura-proteica-vanilie', serving: 300 },
+    ],
+  },
+  {
+    id: 'snack-milbona-drink-cioc',
+    name: '🥤 Milbona drink ciocolată',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'milbona-high-protein-drink-cioc', serving: 300 },
+    ],
+  },
+  {
+    id: 'snack-milbona-drink-vanilie',
+    name: '🥤 Milbona drink vanilie',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'milbona-high-protein-drink-vanilie', serving: 300 },
     ],
   },
   {
@@ -222,6 +720,26 @@ export const mealTemplates = [
     location: ['acasa', 'birou'],
     items: [
       { productId: 'pilos-skyr-natur', serving: 150 },
+    ],
+  },
+  {
+    id: 'snack-skyr-fructe-padure',
+    name: '🫙 Skyr cu fructe de pădure',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'pilos-skyr-fructe', serving: 200 },
+    ],
+  },
+  {
+    id: 'snack-skyr-vanilie',
+    name: '🫙 Skyr vanilie',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'pilos-skyr-vanilie', serving: 200 },
     ],
   },
   {
@@ -236,12 +754,32 @@ export const mealTemplates = [
   },
   {
     id: 'snack-iaurt-proteic',
-    name: '🍶 Iaurt proteic',
+    name: '🍶 Iaurt proteic piersică',
     type: 'snack',
     proteinType: ['any'],
     location: ['acasa', 'birou'],
     items: [
       { productId: 'milbona-iaurt-proteic-piersica', serving: 200 },
+    ],
+  },
+  {
+    id: 'snack-iaurt-proteic-vanilie',
+    name: '🍶 Iaurt proteic vanilie',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'milbona-iaurt-proteic-vanilie', serving: 200 },
+    ],
+  },
+  {
+    id: 'snack-iaurt-proteic-cioc',
+    name: '🍶 Iaurt proteic ciocolată',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'milbona-iaurt-proteic-ciocolata', serving: 200 },
     ],
   },
   {
@@ -253,6 +791,109 @@ export const mealTemplates = [
     items: [
       { productId: 'pilos-skyr-natur', serving: 200 },
       { productId: 'afine', serving: 80 },
+    ],
+  },
+  {
+    id: 'snack-cottage',
+    name: '🧀 Cottage cheese',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'pilos-branza-cottage', serving: 200 },
+    ],
+  },
+  {
+    id: 'snack-nuci-seminte',
+    name: '🥜 Mix nuci & semințe',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'alesto-mix-caju-arahide', serving: 35 },
+    ],
+  },
+  {
+    id: 'snack-migdale',
+    name: '🥜 Migdale',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'alesto-migdale', serving: 35 },
+    ],
+  },
+  {
+    id: 'snack-arahide',
+    name: '🥜 Arahide',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'alesto-arahide', serving: 35 },
+    ],
+  },
+  {
+    id: 'snack-baton-proteic',
+    name: '💪 Baton proteic',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'baton-proteic', serving: 45 },
+    ],
+  },
+  {
+    id: 'snack-unt-arahide-banana',
+    name: '🥜 Unt de arahide & banană',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'unt-arahide', serving: 30 },
+      { productId: 'banane', serving: 120 },
+    ],
+  },
+  {
+    id: 'snack-ricotta-afine',
+    name: '🍓 Ricotta cu afine',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'pilos-ricotta', serving: 125 },
+      { productId: 'afine', serving: 80 },
+    ],
+  },
+  {
+    id: 'snack-iaurt-capsuni',
+    name: '🍶 Iaurt proteic căpșuni',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'milbona-iaurt-proteic-capsuni', serving: 200 },
+    ],
+  },
+  {
+    id: 'snack-seminte-dovleac',
+    name: '🎃 Semințe de dovleac',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa', 'birou'],
+    items: [
+      { productId: 'alesto-seminte-dovleac', serving: 30 },
+    ],
+  },
+  {
+    id: 'snack-branza-vaci-fructe',
+    name: '🍓 Brânză de vaci cu fructe',
+    type: 'snack',
+    proteinType: ['any'],
+    location: ['acasa'],
+    items: [
+      { productId: 'pilos-branza-vaci', serving: 150 },
+      { productId: 'banane', serving: 100 },
     ],
   },
 

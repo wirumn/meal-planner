@@ -7,6 +7,7 @@ import { generateDay } from '../utils/randomizer'
 const PROTEIN_OPTIONS = [
   { id: 'pui',    label: '🐔 Pui'   },
   { id: 'vita',   label: '🥩 Vită'  },
+  { id: 'porc',   label: '🐷 Porc'  },
   { id: 'peste',  label: '🐟 Pește' },
   { id: 'veggie', label: '🧆 Veggie'},
   { id: 'any',    label: '🎲 Orice' },
