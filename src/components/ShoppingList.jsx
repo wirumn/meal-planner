@@ -1,15 +1,16 @@
 import { useMemo } from 'react'
 import { useMealPlan } from '../hooks/useMealPlan'
+import { useCustomProducts } from '../hooks/useCustomProducts'
 import { generateShoppingList, calcShoppingTotal } from '../utils/shopping'
-import products from '../data/products.json'
 
 export default function ShoppingList() {
   const { state, dispatch } = useMealPlan()
+  const { allProducts } = useCustomProducts()
   const { checkedItems } = state.shopping
 
   const shoppingList = useMemo(
-    () => generateShoppingList(state.plan, products),
-    [state.plan]
+    () => generateShoppingList(state.plan, allProducts),
+    [state.plan, allProducts]
   )
 
   const total = useMemo(

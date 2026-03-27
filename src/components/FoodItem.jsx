@@ -1,11 +1,12 @@
 import { useState, useRef, useEffect } from 'react'
 import { calcMacros } from '../utils/macros'
 import { useMealPlan } from '../hooks/useMealPlan'
-import products from '../data/products.json'
+import { useCustomProducts } from '../hooks/useCustomProducts'
 
 export default function FoodItem({ item, day, meal }) {
   const { dispatch } = useMealPlan()
-  const product = products.find(p => p.id === item.productId)
+  const { allProducts } = useCustomProducts()
+  const product = allProducts.find(p => p.id === item.productId)
   const [editing, setEditing] = useState(false)
   const [draftServing, setDraftServing] = useState(String(item.serving))
   const inputRef = useRef(null)
@@ -16,7 +17,19 @@ export default function FoodItem({ item, day, meal }) {
     }
   }, [editing])
 
-  if (!product) return null
+  if (!product) {
+    return (
+      <div className="flex items-center justify-between py-2 px-3 text-xs text-zinc-600 italic">
+        <span>Produs șters</span>
+        <button
+          onClick={() => dispatch({ type: 'REMOVE_FOOD_ITEM', payload: { day, meal, itemId: item.id } })}
+          className="text-zinc-600 hover:text-red-400 transition-colors"
+        >
+          ✕
+        </button>
+      </div>
+    )
+  }
 
   const macros = calcMacros(product, item.serving)
 

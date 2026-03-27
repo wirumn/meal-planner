@@ -1,22 +1,25 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { MealPlanProvider, useMealPlan, DAYS } from './hooks/useMealPlan'
+import { CustomProductsProvider, useCustomProducts } from './hooks/useCustomProducts'
 import DaySelector from './components/DaySelector'
 import MealCard from './components/MealCard'
 import MacroBar from './components/MacroBar'
 import ShoppingList from './components/ShoppingList'
 import Settings from './components/Settings'
 import TabBar from './components/TabBar'
-import products from './data/products.json'
+import Randomizer from './components/Randomizer'
 import { calcDayMacros } from './utils/macros'
 
 function PlanView({ selectedDay, setSelectedDay }) {
   const { state, dispatch } = useMealPlan()
+  const { allProducts } = useCustomProducts()
   const dayData = state.plan[selectedDay]
-  const macros = calcDayMacros(dayData, products)
+  const macros = calcDayMacros(dayData, allProducts)
   const { calorieTarget, proteinTarget, fatTarget, carbTarget } = state.settings
 
   const [newMealName, setNewMealName] = useState('')
   const [showAddMeal, setShowAddMeal] = useState(false)
+  const [showRandomizer, setShowRandomizer] = useState(false)
 
   function handleAddMeal() {
     const name = newMealName.trim()
@@ -26,10 +29,9 @@ function PlanView({ selectedDay, setSelectedDay }) {
     setShowAddMeal(false)
   }
 
-  // Total items count for the week
-  const weekTotal = DAYS.reduce((acc, day) => {
-    return acc + Object.values(state.plan[day].meals).reduce((a, m) => a + m.length, 0)
-  }, 0)
+  const weekTotal = DAYS.reduce((acc, day) =>
+    acc + Object.values(state.plan[day].meals).reduce((a, m) => a + m.length, 0), 0
+  )
 
   return (
     <div className="flex-1 overflow-y-auto pb-20">
@@ -54,7 +56,17 @@ function PlanView({ selectedDay, setSelectedDay }) {
       <div className="px-4 py-4">
         {/* Day header */}
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-semibold text-zinc-100">{selectedDay}</h2>
+          <div className="flex items-center gap-2">
+            <h2 className="text-lg font-semibold text-zinc-100">{selectedDay}</h2>
+            {/* Randomizer button */}
+            <button
+              onClick={() => setShowRandomizer(true)}
+              title="Generează meniu aleator"
+              className="p-1.5 rounded-lg bg-zinc-800 text-zinc-400 hover:text-amber-400 hover:bg-zinc-700 transition-colors text-base"
+            >
+              🎲
+            </button>
+          </div>
           <button
             onClick={() =>
               dispatch({
@@ -118,16 +130,10 @@ function PlanView({ selectedDay, setSelectedDay }) {
               className="flex-1 bg-zinc-800 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-400 transition-colors"
               autoFocus
             />
-            <button
-              onClick={handleAddMeal}
-              className="px-4 py-2.5 bg-amber-400 text-zinc-950 rounded-xl text-sm font-semibold hover:bg-amber-300 transition-colors"
-            >
+            <button onClick={handleAddMeal} className="px-4 py-2.5 bg-amber-400 text-zinc-950 rounded-xl text-sm font-semibold hover:bg-amber-300 transition-colors">
               OK
             </button>
-            <button
-              onClick={() => setShowAddMeal(false)}
-              className="px-3 py-2.5 bg-zinc-800 text-zinc-400 rounded-xl text-sm hover:bg-zinc-700 transition-colors"
-            >
+            <button onClick={() => setShowAddMeal(false)} className="px-3 py-2.5 bg-zinc-800 text-zinc-400 rounded-xl text-sm hover:bg-zinc-700 transition-colors">
               ✕
             </button>
           </div>
@@ -140,6 +146,10 @@ function PlanView({ selectedDay, setSelectedDay }) {
           </button>
         )}
       </div>
+
+      {showRandomizer && (
+        <Randomizer day={selectedDay} onClose={() => setShowRandomizer(false)} />
+      )}
     </div>
   )
 }
@@ -147,19 +157,10 @@ function PlanView({ selectedDay, setSelectedDay }) {
 function AppInner() {
   const [activeTab, setActiveTab] = useState('plan')
   const [selectedDay, setSelectedDay] = useState(() => {
-    // Default to today's day of week
     const dayIndex = new Date().getDay()
-    // Sunday=0 in JS, but our week starts Monday
     const romanianIndex = dayIndex === 0 ? 6 : dayIndex - 1
     return DAYS[romanianIndex] || DAYS[0]
   })
-
-  // Handle shared plan notification
-  useEffect(() => {
-    if (window.location.hash.startsWith('#plan=')) {
-      // Hash was consumed by the provider; show a toast or just do nothing
-    }
-  }, [])
 
   return (
     <div className="min-h-screen bg-zinc-950 flex flex-col max-w-lg mx-auto relative">
@@ -183,8 +184,10 @@ function AppInner() {
 
 export default function App() {
   return (
-    <MealPlanProvider>
-      <AppInner />
-    </MealPlanProvider>
+    <CustomProductsProvider>
+      <MealPlanProvider>
+        <AppInner />
+      </MealPlanProvider>
+    </CustomProductsProvider>
   )
 }

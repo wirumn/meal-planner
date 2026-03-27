@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react'
 import { calcDayMacros } from '../utils/macros'
-import products from '../data/products.json'
+import { useCustomProducts } from '../hooks/useCustomProducts'
 
 const SHORT_DAYS = {
   'Luni': 'Lu',
@@ -12,17 +12,8 @@ const SHORT_DAYS = {
   'Duminică': 'Du',
 }
 
-function getDayStatus(dayData, settings) {
-  const macros = calcDayMacros(dayData, products)
-  const hasItems = Object.values(dayData.meals).some(m => m.length > 0)
-  if (!hasItems) return 'empty'
-  const ratio = macros.kcal / settings.calorieTarget
-  if (ratio > 1.1) return 'over'
-  if (ratio >= 0.9) return 'on-target'
-  return 'under'
-}
-
 export default function DaySelector({ days, selectedDay, onSelectDay, plan, settings }) {
+  const { allProducts } = useCustomProducts()
   const containerRef = useRef(null)
   const activeRef = useRef(null)
 
@@ -39,7 +30,12 @@ export default function DaySelector({ days, selectedDay, onSelectDay, plan, sett
         className="flex gap-2 px-4 py-3 overflow-x-auto scrollbar-hide"
       >
         {days.map(day => {
-          const status = getDayStatus(plan[day], settings)
+          const macros = calcDayMacros(plan[day], allProducts)
+          const hasItems = Object.values(plan[day].meals).some(m => m.length > 0)
+          const status = !hasItems ? 'empty'
+            : macros.kcal / settings.calorieTarget > 1.1 ? 'over'
+            : macros.kcal / settings.calorieTarget >= 0.9 ? 'on-target'
+            : 'under'
           const isActive = day === selectedDay
 
           const dotColor =

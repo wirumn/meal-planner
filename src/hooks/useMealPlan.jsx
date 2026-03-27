@@ -134,6 +134,17 @@ function reducer(state, action) {
       }
     }
 
+    case 'REPLACE_DAY_MEALS': {
+      const { day, meals } = action.payload
+      return {
+        ...state,
+        plan: {
+          ...state.plan,
+          [day]: { ...state.plan[day], meals },
+        },
+      }
+    }
+
     case 'CLEAR_SHOPPING_CHECKS':
       return { ...state, shopping: { checkedItems: {} } }
 
