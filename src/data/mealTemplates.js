@@ -152,6 +152,21 @@ export const mealTemplates = [
     ],
   },
 
+  // ── PRÂNZ — BIROU ───────────────────────────────────────
+  {
+    id: 'birou-pranz-iaurturi',
+    name: '🍶 Iaurturi proteice',
+    type: 'pranz',
+    proteinType: ['any'],
+    location: ['birou'],
+    items: [
+      { productId: 'milbona-iaurt-proteic-piersica', serving: 200 },
+      { productId: 'milbona-iaurt-proteic-piersica', serving: 200 },
+      { productId: 'pilos-iaurt-grecesc-2', serving: 150 },
+      { productId: 'banane', serving: 120 },
+    ],
+  },
+
   // ── PRÂNZ — ACASĂ ───────────────────────────────────────
   {
     id: 'skyr-fructe',

@@ -18,6 +18,13 @@ function templateToItems(template) {
   }))
 }
 
+function scaleItems(items, factor) {
+  return items.map(item => ({
+    ...item,
+    serving: Math.max(10, Math.round(item.serving * factor)),
+  }))
+}
+
 function calcTotalMacros(meals, allProducts) {
   const totals = { kcal: 0, protein: 0, fat: 0, carbs: 0 }
   for (const items of Object.values(meals)) {
@@ -46,9 +53,13 @@ export function generateDay({ proteinType, location, targetKcal, targetProtein, 
     proteinType === 'any' || t.proteinType.includes('any') || t.proteinType.includes(proteinType)
   const matchesLocation = t => t.location.includes(location)
 
+  // pranzPool is filtered by location — birou gets birou templates, acasa gets acasa templates
   const pranzPool = valid.filter(t => t.type === 'pranz' && matchesLocation(t))
   const cinaPool  = valid.filter(t => t.type === 'cina'  && matchesProtein(t) && matchesLocation(t))
   const snackPool = valid.filter(t => t.type === 'snack' && matchesLocation(t))
+
+  // More snacks for higher calorie targets
+  const snackCount = targetKcal > 2000 ? 3 : targetKcal > 1600 ? 2 : 1
 
   let bestResult = null
   let bestScore = Infinity
@@ -59,37 +70,50 @@ export function generateDay({ proteinType, location, targetKcal, targetProtein, 
     const cinaTemplate = available.length ? randomPick(available) : randomPick(cinaPool)
     if (cinaTemplate) triedCina.add(cinaTemplate.id)
 
-    const snackTemplate = randomPick(snackPool)
+    const pranzTemplate = randomPick(pranzPool)
 
-    const pranzTemplate = location === 'birou' ? null : randomPick(pranzPool)
-    const meals =
-      location === 'birou'
-        ? {
-            'Cină':  cinaTemplate  ? templateToItems(cinaTemplate)  : [],
-            'Snack': snackTemplate ? templateToItems(snackTemplate) : [],
-          }
-        : {
-            'Prânz': pranzTemplate ? templateToItems(pranzTemplate) : [],
-            'Cină':  cinaTemplate  ? templateToItems(cinaTemplate)  : [],
-            'Snack': snackTemplate ? templateToItems(snackTemplate) : [],
-          }
+    // Pick unique snacks where possible
+    const selectedSnacks = []
+    const usedSnackIds = new Set()
+    for (let s = 0; s < snackCount; s++) {
+      const pool = snackPool.filter(t => !usedSnackIds.has(t.id))
+      const snack = pool.length ? randomPick(pool) : randomPick(snackPool)
+      if (snack) { selectedSnacks.push(snack); usedSnackIds.add(snack.id) }
+    }
+
+    // Build base meals with template-default servings
+    const baseMeals = {}
+    if (pranzTemplate) baseMeals['Prânz'] = templateToItems(pranzTemplate)
+    if (cinaTemplate)  baseMeals['Cină']  = templateToItems(cinaTemplate)
+    selectedSnacks.forEach((snack, i) => {
+      baseMeals[i === 0 ? 'Snack' : `Snack ${i + 1}`] = templateToItems(snack)
+    })
+
+    // Scale all servings proportionally to hit the calorie target
+    const baseMacros = calcTotalMacros(baseMeals, allProducts)
+    const scaleFactor = (baseMacros.kcal > 0 && targetKcal)
+      ? Math.max(0.65, Math.min(1.5, targetKcal / baseMacros.kcal))
+      : 1
+
+    const meals = {}
+    for (const [name, items] of Object.entries(baseMeals)) {
+      meals[name] = scaleItems(items, scaleFactor)
+    }
 
     const macros = calcTotalMacros(meals, allProducts)
-    const kcalDiff    = targetKcal    ? Math.abs(macros.kcal     - targetKcal)    / targetKcal    : 0
-    const proteinDiff = targetProtein ? Math.abs(macros.protein  - targetProtein) / targetProtein : 0
+    const kcalDiff    = targetKcal    ? Math.abs(macros.kcal    - targetKcal)    / targetKcal    : 0
+    const proteinDiff = targetProtein ? Math.abs(macros.protein - targetProtein) / targetProtein : 0
     const score = kcalDiff * 0.5 + proteinDiff * 0.5
 
     if (score < bestScore) {
       bestScore = score
-      bestResult = {
-        meals,
-        macros,
-        templateNames: {
-          ...(location !== 'birou' && { 'Prânz': '' }),
-          'Cină':  cinaTemplate?.name  || '',
-          'Snack': snackTemplate?.name || '',
-        },
-      }
+      const templateNames = {}
+      if (pranzTemplate) templateNames['Prânz'] = pranzTemplate.name || ''
+      if (cinaTemplate)  templateNames['Cină']  = cinaTemplate.name || ''
+      selectedSnacks.forEach((s, i) => {
+        templateNames[i === 0 ? 'Snack' : `Snack ${i + 1}`] = s.name || ''
+      })
+      bestResult = { meals, macros, templateNames }
     }
   }
 

@@ -273,12 +273,20 @@ function Step2({ generated, allProducts, targetKcal, targetProtein, onApply, onR
       >
         👍 Arată bine! Aplicați ziua
       </button>
-      <button
-        onClick={onRegenerate}
-        className="w-full py-2.5 bg-zinc-800 text-zinc-200 rounded-xl text-sm font-medium hover:bg-zinc-700 transition-colors"
-      >
-        🔄 Generează altul
-      </button>
+      <div className="grid grid-cols-2 gap-2">
+        <button
+          onClick={onApply}
+          className="py-2.5 bg-zinc-800 text-zinc-200 rounded-xl text-sm font-medium hover:bg-zinc-700 transition-colors"
+        >
+          ✏️ Editează
+        </button>
+        <button
+          onClick={onRegenerate}
+          className="py-2.5 bg-zinc-800 text-zinc-200 rounded-xl text-sm font-medium hover:bg-zinc-700 transition-colors"
+        >
+          🔄 Altul
+        </button>
+      </div>
     </div>
   )
 }
