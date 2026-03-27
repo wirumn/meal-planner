@@ -47,7 +47,6 @@ async function searchOFF(query, onlyLidl) {
 
   const params = new URLSearchParams({
     search_terms: query,
-    countries_tags: 'en:romania',
     fields: 'code,product_name,brands,nutriments,image_front_small_url,categories_tags,quantity',
     page_size: '20',
     json: '1',
@@ -91,7 +90,7 @@ export default function ProductPicker({ onAdd, onClose }) {
 
   // Online tab state
   const [offQuery, setOffQuery] = useState('')
-  const [onlyLidl, setOnlyLidl] = useState(true)
+  const [onlyLidl, setOnlyLidl] = useState(false)
   const [offResults, setOffResults] = useState([])
   const [offLoading, setOffLoading] = useState(false)
   const [offError, setOffError] = useState('')
