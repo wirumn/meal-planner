@@ -4,62 +4,98 @@
     "name": "Pilos Skyr Natur",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 62, "protein": 11, "fat": 0.2, "carbs": 4 },
+    "per100g": {
+      "kcal": 62,
+      "protein": 11,
+      "fat": 0.2,
+      "carbs": 4
+    },
     "defaultServing": 200,
     "unit": "g",
-    "price": 9.00,
+    "price": 9.0,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "pilos-skyr-fructe",
     "name": "Pilos Skyr cu Fructe",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 68, "protein": 10, "fat": 0.3, "carbs": 6 },
+    "per100g": {
+      "kcal": 68,
+      "protein": 10,
+      "fat": 0.3,
+      "carbs": 6
+    },
     "defaultServing": 200,
     "unit": "g",
     "price": 11.49,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "milbona-iaurt-proteic-piersica",
     "name": "Milbona Iaurt Proteic Piersică",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 69, "protein": 12.3, "fat": 0.5, "carbs": 3.7 },
+    "per100g": {
+      "kcal": 69,
+      "protein": 12.3,
+      "fat": 0.5,
+      "carbs": 3.7
+    },
     "defaultServing": 200,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "pilos-iaurt-grecesc-2",
     "name": "Iaurt Grecesc Pilos 2%",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 48, "protein": 3.6, "fat": 2, "carbs": 3.8 },
+    "per100g": {
+      "kcal": 48,
+      "protein": 3.6,
+      "fat": 2,
+      "carbs": 3.8
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 7.00,
+    "price": 7.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["low-fat"]
+    "tags": [
+      "low-fat"
+    ]
   },
   {
     "id": "pilos-iaurt-grecesc-10",
     "name": "Iaurt Grecesc Pilos 10%",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 130, "protein": 5, "fat": 10, "carbs": 5 },
+    "per100g": {
+      "kcal": 130,
+      "protein": 5,
+      "fat": 10,
+      "carbs": 5
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 8.00,
+    "price": 8.0,
     "priceUnit": "400g",
     "packageSize": 400,
     "tags": []
@@ -69,10 +105,15 @@
     "name": "Brânzică Proaspătă Pilos",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 150, "protein": 10, "fat": 10, "carbs": 4 },
+    "per100g": {
+      "kcal": 150,
+      "protein": 10,
+      "fat": 10,
+      "carbs": 4
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "200g",
     "packageSize": 200,
     "tags": []
@@ -82,72 +123,114 @@
     "name": "Cheddar Felii Milbona",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 350, "protein": 25, "fat": 28, "carbs": 1 },
+    "per100g": {
+      "kcal": 350,
+      "protein": 25,
+      "fat": 28,
+      "carbs": 1
+    },
     "defaultServing": 30,
     "unit": "g",
-    "price": 10.00,
+    "price": 10.0,
     "priceUnit": "150g",
     "packageSize": 150,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "parmezan-ras",
     "name": "Parmezan Ras",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 390, "protein": 35, "fat": 27, "carbs": 3 },
+    "per100g": {
+      "kcal": 390,
+      "protein": 35,
+      "fat": 27,
+      "carbs": 3
+    },
     "defaultServing": 20,
     "unit": "g",
-    "price": 10.00,
+    "price": 10.0,
     "priceUnit": "100g",
     "packageSize": 100,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "milbona-iaurt-proteic-vanilie",
     "name": "Milbona Iaurt Proteic Vanilie",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 67, "protein": 12.3, "fat": 0.5, "carbs": 3.5 },
+    "per100g": {
+      "kcal": 67,
+      "protein": 12.3,
+      "fat": 0.5,
+      "carbs": 3.5
+    },
     "defaultServing": 200,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "milbona-iaurt-proteic-ciocolata",
     "name": "Milbona Iaurt Proteic Ciocolată",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 72, "protein": 12.3, "fat": 0.5, "carbs": 5 },
+    "per100g": {
+      "kcal": 72,
+      "protein": 12.3,
+      "fat": 0.5,
+      "carbs": 5
+    },
     "defaultServing": 200,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "pilos-branza-vaci",
     "name": "Brânză de Vaci Pilos",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 98, "protein": 11, "fat": 4, "carbs": 3.5 },
+    "per100g": {
+      "kcal": 98,
+      "protein": 11,
+      "fat": 4,
+      "carbs": 3.5
+    },
     "defaultServing": 150,
     "unit": "g",
     "price": 8.99,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "milbona-ricotta",
     "name": "Ricotta Milbona",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 146, "protein": 9, "fat": 11, "carbs": 3 },
+    "per100g": {
+      "kcal": 146,
+      "protein": 9,
+      "fat": 11,
+      "carbs": 3
+    },
     "defaultServing": 100,
     "unit": "g",
     "price": 8.99,
@@ -160,7 +243,12 @@
     "name": "Mozzarella Milbona",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 254, "protein": 18, "fat": 20, "carbs": 1 },
+    "per100g": {
+      "kcal": 254,
+      "protein": 18,
+      "fat": 20,
+      "carbs": 1
+    },
     "defaultServing": 125,
     "unit": "g",
     "price": 6.99,
@@ -173,20 +261,32 @@
     "name": "Lapte Degresat Pilos 1.5%",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 46, "protein": 3.3, "fat": 1.5, "carbs": 4.8 },
+    "per100g": {
+      "kcal": 46,
+      "protein": 3.3,
+      "fat": 1.5,
+      "carbs": 4.8
+    },
     "defaultServing": 250,
     "unit": "g",
     "price": 7.99,
     "priceUnit": "1L",
     "packageSize": 1000,
-    "tags": ["low-fat"]
+    "tags": [
+      "low-fat"
+    ]
   },
   {
     "id": "milbona-unt",
     "name": "Unt 82% Milbona",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 740, "protein": 0.5, "fat": 82, "carbs": 0.5 },
+    "per100g": {
+      "kcal": 740,
+      "protein": 0.5,
+      "fat": 82,
+      "carbs": 0.5
+    },
     "defaultServing": 10,
     "unit": "g",
     "price": 12.99,
@@ -199,7 +299,12 @@
     "name": "Smântână 15% Pilos",
     "brand": "Pilos",
     "category": "lactate",
-    "per100g": { "kcal": 165, "protein": 3, "fat": 15, "carbs": 3.5 },
+    "per100g": {
+      "kcal": 165,
+      "protein": 3,
+      "fat": 15,
+      "carbs": 3.5
+    },
     "defaultServing": 50,
     "unit": "g",
     "price": 7.49,
@@ -212,7 +317,12 @@
     "name": "Cremă de Brânză Milbona",
     "brand": "Milbona",
     "category": "lactate",
-    "per100g": { "kcal": 200, "protein": 5, "fat": 18, "carbs": 3 },
+    "per100g": {
+      "kcal": 200,
+      "protein": 5,
+      "fat": 18,
+      "carbs": 3
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 7.99,
@@ -225,153 +335,250 @@
     "name": "YoPro Băutură Proteică Natur",
     "brand": "YoPro",
     "category": "bauturi-proteice",
-    "per100g": { "kcal": 60, "protein": 8.3, "fat": 0.5, "carbs": 4.3 },
+    "per100g": {
+      "kcal": 60,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 4.3
+    },
     "defaultServing": 300,
     "unit": "g",
     "price": 7.59,
     "priceUnit": "300ml",
     "packageSize": 300,
-    "tags": ["high-protein", "low-fat", "ready-to-drink"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "ready-to-drink"
+    ]
   },
   {
     "id": "lidl-bautura-proteica-ciocolata",
     "name": "Băutură Proteică Ciocolată",
     "brand": "Lidl",
     "category": "bauturi-proteice",
-    "per100g": { "kcal": 60, "protein": 8.3, "fat": 0.5, "carbs": 4.3 },
+    "per100g": {
+      "kcal": 60,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 4.3
+    },
     "defaultServing": 300,
     "unit": "g",
     "price": 7.59,
     "priceUnit": "300ml",
     "packageSize": 300,
-    "tags": ["high-protein", "low-fat", "ready-to-drink"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "ready-to-drink"
+    ]
   },
   {
     "id": "lidl-bautura-proteica-capsuni",
     "name": "Băutură Proteică Căpșuni",
     "brand": "Lidl",
     "category": "bauturi-proteice",
-    "per100g": { "kcal": 60, "protein": 8.3, "fat": 0.5, "carbs": 4.3 },
+    "per100g": {
+      "kcal": 60,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 4.3
+    },
     "defaultServing": 300,
     "unit": "g",
     "price": 7.59,
     "priceUnit": "300ml",
     "packageSize": 300,
-    "tags": ["high-protein", "low-fat", "ready-to-drink"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "ready-to-drink"
+    ]
   },
   {
     "id": "lidl-bautura-proteica-vanilie",
     "name": "Băutură Proteică Vanilie",
     "brand": "Lidl",
     "category": "bauturi-proteice",
-    "per100g": { "kcal": 60, "protein": 8.3, "fat": 0.5, "carbs": 4.3 },
+    "per100g": {
+      "kcal": 60,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 4.3
+    },
     "defaultServing": 300,
     "unit": "g",
     "price": 7.59,
     "priceUnit": "300ml",
     "packageSize": 300,
-    "tags": ["high-protein", "low-fat", "ready-to-drink"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "ready-to-drink"
+    ]
   },
   {
     "id": "lidl-bautura-proteica-banana",
     "name": "Băutură Proteică Banane",
     "brand": "Lidl",
     "category": "bauturi-proteice",
-    "per100g": { "kcal": 62, "protein": 8.3, "fat": 0.5, "carbs": 5 },
+    "per100g": {
+      "kcal": 62,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 5
+    },
     "defaultServing": 300,
     "unit": "g",
     "price": 7.59,
     "priceUnit": "300ml",
     "packageSize": 300,
-    "tags": ["high-protein", "low-fat", "ready-to-drink"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "ready-to-drink"
+    ]
   },
   {
     "id": "milbona-shake-proteic-ciocolata",
     "name": "Shake Proteic Pudră Ciocolată",
     "brand": "Milbona",
     "category": "bauturi-proteice",
-    "per100g": { "kcal": 370, "protein": 68, "fat": 5, "carbs": 15 },
+    "per100g": {
+      "kcal": 370,
+      "protein": 68,
+      "fat": 5,
+      "carbs": 15
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 89.99,
     "priceUnit": "750g",
     "packageSize": 750,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "milbona-shake-proteic-vanilie",
     "name": "Shake Proteic Pudră Vanilie",
     "brand": "Milbona",
     "category": "bauturi-proteice",
-    "per100g": { "kcal": 365, "protein": 68, "fat": 5, "carbs": 13 },
+    "per100g": {
+      "kcal": 365,
+      "protein": 68,
+      "fat": 5,
+      "carbs": 13
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 89.99,
     "priceUnit": "750g",
     "packageSize": 750,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "piept-pui-crud",
     "name": "Piept de Pui Crud Dezosat",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 105, "protein": 22, "fat": 1, "carbs": 0 },
+    "per100g": {
+      "kcal": 105,
+      "protein": 22,
+      "fat": 1,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 30.00,
+    "price": 30.0,
     "priceUnit": "1kg",
     "packageSize": 1000,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "chef-select-piept-pui-gratar",
     "name": "Chef Select Piept Pui la Grătar",
     "brand": "Chef Select",
     "category": "carne",
-    "per100g": { "kcal": 125, "protein": 26.2, "fat": 2.1, "carbs": 0.3 },
+    "per100g": {
+      "kcal": 125,
+      "protein": 26.2,
+      "fat": 2.1,
+      "carbs": 0.3
+    },
     "defaultServing": 200,
     "unit": "g",
-    "price": 10.00,
+    "price": 10.0,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["high-protein", "low-fat", "ready-to-eat"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "ready-to-eat"
+    ]
   },
   {
     "id": "carne-tocata-vita-mix",
     "name": "Carne Tocată Vită/Mix",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 210, "protein": 17, "fat": 15, "carbs": 0 },
+    "per100g": {
+      "kcal": 210,
+      "protein": 17,
+      "fat": 15,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 20.00,
+    "price": 20.0,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "carne-tocata-pui",
     "name": "Carne Tocată Pui",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 150, "protein": 20, "fat": 8, "carbs": 0 },
+    "per100g": {
+      "kcal": 150,
+      "protein": 20,
+      "fat": 8,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 14.00,
+    "price": 14.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "irish-angus-burger",
     "name": "Irish Angus Burger (2 buc)",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 230, "protein": 15, "fat": 18, "carbs": 2 },
+    "per100g": {
+      "kcal": 230,
+      "protein": 15,
+      "fat": 18,
+      "carbs": 2
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 20.00,
+    "price": 20.0,
     "priceUnit": "300g",
     "packageSize": 300,
     "tags": []
@@ -381,49 +588,78 @@
     "name": "Pulpe Pui Dezosate",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 175, "protein": 19, "fat": 11, "carbs": 0 },
+    "per100g": {
+      "kcal": 175,
+      "protein": 19,
+      "fat": 11,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 18.00,
+    "price": 18.0,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "piept-curcan-crud",
     "name": "Piept Curcan Crud",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 112, "protein": 24, "fat": 1, "carbs": 0 },
+    "per100g": {
+      "kcal": 112,
+      "protein": 24,
+      "fat": 1,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 25.00,
+    "price": 25.0,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "piept-pui-congelat",
     "name": "Piept Pui Congelat IQF",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 100, "protein": 22, "fat": 1, "carbs": 0 },
+    "per100g": {
+      "kcal": 100,
+      "protein": 22,
+      "fat": 1,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 22.00,
+    "price": 22.0,
     "priceUnit": "700g",
     "packageSize": 700,
-    "tags": ["high-protein", "low-fat", "frozen"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "frozen"
+    ]
   },
   {
     "id": "carnaciori-pui",
     "name": "Cârnăciori din Pui",
     "brand": "Chef Select",
     "category": "carne",
-    "per100g": { "kcal": 195, "protein": 14, "fat": 15, "carbs": 1 },
+    "per100g": {
+      "kcal": 195,
+      "protein": 14,
+      "fat": 15,
+      "carbs": 1
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 12.00,
+    "price": 12.0,
     "priceUnit": "300g",
     "packageSize": 300,
     "tags": []
@@ -433,10 +669,15 @@
     "name": "Ceafă de Porc",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 240, "protein": 16, "fat": 19, "carbs": 0 },
+    "per100g": {
+      "kcal": 240,
+      "protein": 16,
+      "fat": 19,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 20.00,
+    "price": 20.0,
     "priceUnit": "500g",
     "packageSize": 500,
     "tags": []
@@ -446,23 +687,35 @@
     "name": "Mușchi de Porc",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 145, "protein": 22, "fat": 6, "carbs": 0 },
+    "per100g": {
+      "kcal": 145,
+      "protein": 22,
+      "fat": 6,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 22.00,
+    "price": 22.0,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "bacon-felii",
     "name": "Bacon Afumat Felii",
     "brand": "Chef Select",
     "category": "carne",
-    "per100g": { "kcal": 380, "protein": 15, "fat": 35, "carbs": 1 },
+    "per100g": {
+      "kcal": 380,
+      "protein": 15,
+      "fat": 35,
+      "carbs": 1
+    },
     "defaultServing": 50,
     "unit": "g",
-    "price": 10.00,
+    "price": 10.0,
     "priceUnit": "150g",
     "packageSize": 150,
     "tags": []
@@ -472,10 +725,15 @@
     "name": "Salam din Pui Chef Select",
     "brand": "Chef Select",
     "category": "carne",
-    "per100g": { "kcal": 145, "protein": 17, "fat": 8, "carbs": 1 },
+    "per100g": {
+      "kcal": 145,
+      "protein": 17,
+      "fat": 8,
+      "carbs": 1
+    },
     "defaultServing": 60,
     "unit": "g",
-    "price": 9.00,
+    "price": 9.0,
     "priceUnit": "200g",
     "packageSize": 200,
     "tags": []
@@ -485,137 +743,218 @@
     "name": "Falafel Congelat",
     "brand": "Lidl",
     "category": "carne",
-    "per100g": { "kcal": 200, "protein": 7, "fat": 10, "carbs": 20 },
+    "per100g": {
+      "kcal": 200,
+      "protein": 7,
+      "fat": 10,
+      "carbs": 20
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 10.00,
+    "price": 10.0,
     "priceUnit": "300g",
     "packageSize": 300,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "ton-conserva-suc-propriu",
     "name": "Ton Conservă în Suc Propriu",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 100, "protein": 23, "fat": 1, "carbs": 0 },
+    "per100g": {
+      "kcal": 100,
+      "protein": 23,
+      "fat": 1,
+      "carbs": 0
+    },
     "defaultServing": 160,
     "unit": "g",
-    "price": 8.00,
+    "price": 8.0,
     "priceUnit": "160g",
     "packageSize": 160,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "ton-conserva-ulei",
     "name": "Ton Conservă în Ulei",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 190, "protein": 25, "fat": 10, "carbs": 0 },
+    "per100g": {
+      "kcal": 190,
+      "protein": 25,
+      "fat": 10,
+      "carbs": 0
+    },
     "defaultServing": 160,
     "unit": "g",
-    "price": 8.00,
+    "price": 8.0,
     "priceUnit": "160g",
     "packageSize": 160,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "macrou-ulei-conserva",
     "name": "Macrou în Ulei Conservă",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 220, "protein": 17, "fat": 17, "carbs": 0 },
+    "per100g": {
+      "kcal": 220,
+      "protein": 17,
+      "fat": 17,
+      "carbs": 0
+    },
     "defaultServing": 125,
     "unit": "g",
-    "price": 7.00,
+    "price": 7.0,
     "priceUnit": "125g",
     "packageSize": 125,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "sardine-ulei-conserva",
     "name": "Sardine în Ulei Conservă",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 210, "protein": 19, "fat": 15, "carbs": 0 },
+    "per100g": {
+      "kcal": 210,
+      "protein": 19,
+      "fat": 15,
+      "carbs": 0
+    },
     "defaultServing": 120,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "120g",
     "packageSize": 120,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "somon-afumat",
     "name": "Somon Afumat",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 185, "protein": 18, "fat": 12, "carbs": 0 },
+    "per100g": {
+      "kcal": 185,
+      "protein": 18,
+      "fat": 12,
+      "carbs": 0
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 18.00,
+    "price": 18.0,
     "priceUnit": "100g",
     "packageSize": 100,
-    "tags": ["high-protein"]
+    "tags": [
+      "high-protein"
+    ]
   },
   {
     "id": "file-somon-congelat",
     "name": "File Somon Congelat",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 200, "protein": 20, "fat": 13, "carbs": 0 },
+    "per100g": {
+      "kcal": 200,
+      "protein": 20,
+      "fat": 13,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 35.00,
+    "price": 35.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["high-protein", "frozen"]
+    "tags": [
+      "high-protein",
+      "frozen"
+    ]
   },
   {
     "id": "creveti-congelati",
     "name": "Creveți Tigru Congelați",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 85, "protein": 18, "fat": 1, "carbs": 0 },
+    "per100g": {
+      "kcal": 85,
+      "protein": 18,
+      "fat": 1,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 35.00,
+    "price": 35.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["high-protein", "low-fat", "frozen"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "frozen"
+    ]
   },
   {
     "id": "file-cod-congelat",
     "name": "File Cod Congelat",
     "brand": "Nixe",
     "category": "peste",
-    "per100g": { "kcal": 82, "protein": 18, "fat": 0.7, "carbs": 0 },
+    "per100g": {
+      "kcal": 82,
+      "protein": 18,
+      "fat": 0.7,
+      "carbs": 0
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 28.00,
+    "price": 28.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["high-protein", "low-fat", "frozen"]
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "frozen"
+    ]
   },
   {
     "id": "tortilla-wraps-integrale",
     "name": "Tortilla Wraps Integrale (6 buc)",
     "brand": "Lidl",
     "category": "panificatie",
-    "per100g": { "kcal": 280, "protein": 8, "fat": 5, "carbs": 45 },
+    "per100g": {
+      "kcal": 280,
+      "protein": 8,
+      "fat": 5,
+      "carbs": 45
+    },
     "defaultServing": 60,
     "unit": "g",
     "price": 7.59,
     "priceUnit": "360g",
     "packageSize": 360,
-    "tags": ["wholegrain"]
+    "tags": [
+      "wholegrain"
+    ]
   },
   {
     "id": "chifle-brioche-hamburger",
     "name": "Chifle Brioche Hamburger (4 buc)",
     "brand": "Lidl",
     "category": "panificatie",
-    "per100g": { "kcal": 320, "protein": 8, "fat": 8, "carbs": 52 },
+    "per100g": {
+      "kcal": 320,
+      "protein": 8,
+      "fat": 8,
+      "carbs": 52
+    },
     "defaultServing": 65,
     "unit": "g",
     "price": 7.49,
@@ -628,10 +967,15 @@
     "name": "Lipii Simple",
     "brand": "Lidl",
     "category": "panificatie",
-    "per100g": { "kcal": 270, "protein": 9, "fat": 4, "carbs": 48 },
+    "per100g": {
+      "kcal": 270,
+      "protein": 9,
+      "fat": 4,
+      "carbs": 48
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 8.00,
+    "price": 8.0,
     "priceUnit": "480g",
     "packageSize": 480,
     "tags": []
@@ -641,670 +985,1043 @@
     "name": "Paste Penne/Fusilli",
     "brand": "Combino",
     "category": "panificatie",
-    "per100g": { "kcal": 350, "protein": 12, "fat": 1.5, "carbs": 72 },
+    "per100g": {
+      "kcal": 350,
+      "protein": 12,
+      "fat": 1.5,
+      "carbs": 72
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "paste-spaghetti",
     "name": "Paste Spaghetti",
     "brand": "Combino",
     "category": "panificatie",
-    "per100g": { "kcal": 350, "protein": 12, "fat": 1.5, "carbs": 72 },
+    "per100g": {
+      "kcal": 350,
+      "protein": 12,
+      "fat": 1.5,
+      "carbs": 72
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 4.50,
+    "price": 4.5,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "paste-integrale",
     "name": "Paste Integrale",
     "brand": "Combino",
     "category": "panificatie",
-    "per100g": { "kcal": 330, "protein": 13, "fat": 2, "carbs": 66 },
+    "per100g": {
+      "kcal": 330,
+      "protein": 13,
+      "fat": 2,
+      "carbs": 66
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 5.50,
+    "price": 5.5,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["wholegrain", "vegan"]
+    "tags": [
+      "wholegrain",
+      "vegan"
+    ]
   },
   {
     "id": "orez-alb",
     "name": "Orez Alb",
     "brand": "Combino",
     "category": "panificatie",
-    "per100g": { "kcal": 360, "protein": 7, "fat": 0.5, "carbs": 80 },
+    "per100g": {
+      "kcal": 360,
+      "protein": 7,
+      "fat": 0.5,
+      "carbs": 80
+    },
     "defaultServing": 80,
     "unit": "g",
     "price": 5.99,
     "priceUnit": "1kg",
     "packageSize": 1000,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "orez-brun",
     "name": "Orez Brun",
     "brand": "Harvest Basket",
     "category": "panificatie",
-    "per100g": { "kcal": 349, "protein": 8, "fat": 3, "carbs": 71 },
+    "per100g": {
+      "kcal": 349,
+      "protein": 8,
+      "fat": 3,
+      "carbs": 71
+    },
     "defaultServing": 80,
     "unit": "g",
     "price": 7.99,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["wholegrain", "vegan"]
+    "tags": [
+      "wholegrain",
+      "vegan"
+    ]
   },
   {
     "id": "fulgi-ovaz",
     "name": "Fulgi de Ovăz",
     "brand": "Harvest Basket",
     "category": "panificatie",
-    "per100g": { "kcal": 375, "protein": 13, "fat": 7, "carbs": 63 },
+    "per100g": {
+      "kcal": 375,
+      "protein": 13,
+      "fat": 7,
+      "carbs": 63
+    },
     "defaultServing": 60,
     "unit": "g",
     "price": 5.99,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["wholegrain", "vegan"]
+    "tags": [
+      "wholegrain",
+      "vegan"
+    ]
   },
   {
     "id": "couscous",
     "name": "Cous Cous",
     "brand": "Harvest Basket",
     "category": "panificatie",
-    "per100g": { "kcal": 356, "protein": 12, "fat": 1, "carbs": 74 },
+    "per100g": {
+      "kcal": 356,
+      "protein": 12,
+      "fat": 1,
+      "carbs": 74
+    },
     "defaultServing": 80,
     "unit": "g",
     "price": 6.99,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "paine-integrala-seminte",
     "name": "Pâine Integrală cu Semințe",
     "brand": "Lidl",
     "category": "panificatie",
-    "per100g": { "kcal": 220, "protein": 8, "fat": 4, "carbs": 38 },
+    "per100g": {
+      "kcal": 220,
+      "protein": 8,
+      "fat": 4,
+      "carbs": 38
+    },
     "defaultServing": 60,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["wholegrain", "vegan"]
+    "tags": [
+      "wholegrain",
+      "vegan"
+    ]
   },
   {
     "id": "paine-toast",
     "name": "Pâine Toast Feliată",
     "brand": "Lidl",
     "category": "panificatie",
-    "per100g": { "kcal": 265, "protein": 9, "fat": 3, "carbs": 50 },
+    "per100g": {
+      "kcal": 265,
+      "protein": 9,
+      "fat": 3,
+      "carbs": 50
+    },
     "defaultServing": 50,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "salata-verde",
     "name": "Salată Verde",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 15, "protein": 1.3, "fat": 0.2, "carbs": 2 },
+    "per100g": {
+      "kcal": 15,
+      "protein": 1.3,
+      "fat": 0.2,
+      "carbs": 2
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 4.00,
+    "price": 4.0,
     "priceUnit": "1 buc (~150g)",
     "packageSize": 150,
-    "tags": ["vegan", "low-calorie"]
+    "tags": [
+      "vegan",
+      "low-calorie"
+    ]
   },
   {
     "id": "rosii",
     "name": "Roșii",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 18, "protein": 0.9, "fat": 0.2, "carbs": 3.9 },
+    "per100g": {
+      "kcal": 18,
+      "protein": 0.9,
+      "fat": 0.2,
+      "carbs": 3.9
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 10.00,
+    "price": 10.0,
     "priceUnit": "1kg",
     "packageSize": 1000,
-    "tags": ["vegan", "low-calorie"]
+    "tags": [
+      "vegan",
+      "low-calorie"
+    ]
   },
   {
     "id": "castraveti",
     "name": "Castraveți",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 15, "protein": 0.6, "fat": 0.1, "carbs": 3.6 },
+    "per100g": {
+      "kcal": 15,
+      "protein": 0.6,
+      "fat": 0.1,
+      "carbs": 3.6
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 2.00,
+    "price": 2.0,
     "priceUnit": "1 buc (~200g)",
     "packageSize": 200,
-    "tags": ["vegan", "low-calorie"]
+    "tags": [
+      "vegan",
+      "low-calorie"
+    ]
   },
   {
     "id": "spanac-proaspat",
     "name": "Spanac Proaspăt",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 23, "protein": 2.9, "fat": 0.4, "carbs": 3.6 },
+    "per100g": {
+      "kcal": 23,
+      "protein": 2.9,
+      "fat": 0.4,
+      "carbs": 3.6
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 7.00,
+    "price": 7.0,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["vegan", "low-calorie"]
+    "tags": [
+      "vegan",
+      "low-calorie"
+    ]
   },
   {
     "id": "ardei-gras",
     "name": "Ardei Gras Roșu/Galben",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 31, "protein": 1, "fat": 0.3, "carbs": 6 },
+    "per100g": {
+      "kcal": 31,
+      "protein": 1,
+      "fat": 0.3,
+      "carbs": 6
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 8.00,
+    "price": 8.0,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["vegan", "low-calorie"]
+    "tags": [
+      "vegan",
+      "low-calorie"
+    ]
   },
   {
     "id": "broccoli",
     "name": "Broccoli",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 34, "protein": 2.8, "fat": 0.4, "carbs": 7 },
+    "per100g": {
+      "kcal": 34,
+      "protein": 2.8,
+      "fat": 0.4,
+      "carbs": 7
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 8.00,
+    "price": 8.0,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["vegan", "low-calorie"]
+    "tags": [
+      "vegan",
+      "low-calorie"
+    ]
   },
   {
     "id": "morcovi",
     "name": "Morcovi",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 41, "protein": 0.9, "fat": 0.2, "carbs": 10 },
+    "per100g": {
+      "kcal": 41,
+      "protein": 0.9,
+      "fat": 0.2,
+      "carbs": 10
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "1kg",
     "packageSize": 1000,
-    "tags": ["vegan", "low-calorie"]
+    "tags": [
+      "vegan",
+      "low-calorie"
+    ]
   },
   {
     "id": "ceapa-galbena",
     "name": "Ceapă Galbenă",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 40, "protein": 1.1, "fat": 0.1, "carbs": 9 },
+    "per100g": {
+      "kcal": 40,
+      "protein": 1.1,
+      "fat": 0.1,
+      "carbs": 9
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 4.00,
+    "price": 4.0,
     "priceUnit": "1kg",
     "packageSize": 1000,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "spanac-congelat",
     "name": "Spanac Congelat",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 23, "protein": 2.9, "fat": 0.4, "carbs": 3.6 },
+    "per100g": {
+      "kcal": 23,
+      "protein": 2.9,
+      "fat": 0.4,
+      "carbs": 3.6
+    },
     "defaultServing": 150,
     "unit": "g",
     "price": 5.99,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["vegan", "low-calorie", "frozen"]
+    "tags": [
+      "vegan",
+      "low-calorie",
+      "frozen"
+    ]
   },
   {
     "id": "broccoli-congelat",
     "name": "Broccoli Congelat",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 34, "protein": 2.8, "fat": 0.4, "carbs": 7 },
+    "per100g": {
+      "kcal": 34,
+      "protein": 2.8,
+      "fat": 0.4,
+      "carbs": 7
+    },
     "defaultServing": 150,
     "unit": "g",
     "price": 5.99,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["vegan", "low-calorie", "frozen"]
+    "tags": [
+      "vegan",
+      "low-calorie",
+      "frozen"
+    ]
   },
   {
     "id": "amestec-legume-congelate",
     "name": "Amestec Legume Congelate",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 55, "protein": 3, "fat": 0.3, "carbs": 11 },
+    "per100g": {
+      "kcal": 55,
+      "protein": 3,
+      "fat": 0.3,
+      "carbs": 11
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 7.00,
+    "price": 7.0,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["vegan", "frozen"]
+    "tags": [
+      "vegan",
+      "frozen"
+    ]
   },
   {
     "id": "porumb-congelat",
     "name": "Porumb Dulce Congelat",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 88, "protein": 3.3, "fat": 1.2, "carbs": 19 },
+    "per100g": {
+      "kcal": 88,
+      "protein": 3.3,
+      "fat": 1.2,
+      "carbs": 19
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["vegan", "frozen"]
+    "tags": [
+      "vegan",
+      "frozen"
+    ]
   },
   {
     "id": "fasole-verde-congelata",
     "name": "Fasole Verde Congelată",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 31, "protein": 1.8, "fat": 0.1, "carbs": 5.6 },
+    "per100g": {
+      "kcal": 31,
+      "protein": 1.8,
+      "fat": 0.1,
+      "carbs": 5.6
+    },
     "defaultServing": 150,
     "unit": "g",
     "price": 5.99,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["vegan", "low-calorie", "frozen"]
+    "tags": [
+      "vegan",
+      "low-calorie",
+      "frozen"
+    ]
   },
   {
     "id": "mazare-congelata",
     "name": "Mazăre Congelată",
     "brand": "Lidl",
     "category": "legume",
-    "per100g": { "kcal": 77, "protein": 5.4, "fat": 0.4, "carbs": 14 },
+    "per100g": {
+      "kcal": 77,
+      "protein": 5.4,
+      "fat": 0.4,
+      "carbs": 14
+    },
     "defaultServing": 100,
     "unit": "g",
     "price": 5.99,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["vegan", "frozen"]
+    "tags": [
+      "vegan",
+      "frozen"
+    ]
   },
   {
     "id": "banane",
     "name": "Banane",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 89, "protein": 1.1, "fat": 0.3, "carbs": 23 },
+    "per100g": {
+      "kcal": 89,
+      "protein": 1.1,
+      "fat": 0.3,
+      "carbs": 23
+    },
     "defaultServing": 120,
     "unit": "g",
-    "price": 9.00,
+    "price": 9.0,
     "priceUnit": "1kg",
     "packageSize": 1000,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "afine",
     "name": "Afine",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 57, "protein": 0.7, "fat": 0.3, "carbs": 14 },
+    "per100g": {
+      "kcal": 57,
+      "protein": 0.7,
+      "fat": 0.3,
+      "carbs": 14
+    },
     "defaultServing": 80,
     "unit": "g",
-    "price": 12.00,
+    "price": 12.0,
     "priceUnit": "250g",
     "packageSize": 250,
-    "tags": ["vegan", "antioxidant"]
+    "tags": [
+      "vegan",
+      "antioxidant"
+    ]
   },
   {
     "id": "mere",
     "name": "Mere",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 52, "protein": 0.3, "fat": 0.2, "carbs": 14 },
+    "per100g": {
+      "kcal": 52,
+      "protein": 0.3,
+      "fat": 0.2,
+      "carbs": 14
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "1kg",
     "packageSize": 1000,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "portocale",
     "name": "Portocale",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 47, "protein": 0.9, "fat": 0.1, "carbs": 12 },
+    "per100g": {
+      "kcal": 47,
+      "protein": 0.9,
+      "fat": 0.1,
+      "carbs": 12
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 9.00,
+    "price": 9.0,
     "priceUnit": "1.5kg",
     "packageSize": 1500,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "capsuni",
     "name": "Căpșuni",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 33, "protein": 0.7, "fat": 0.3, "carbs": 8 },
+    "per100g": {
+      "kcal": 33,
+      "protein": 0.7,
+      "fat": 0.3,
+      "carbs": 8
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 15.00,
+    "price": 15.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "zmeura-congelata",
     "name": "Zmeură Congelată",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 52, "protein": 1.2, "fat": 0.7, "carbs": 12 },
+    "per100g": {
+      "kcal": 52,
+      "protein": 1.2,
+      "fat": 0.7,
+      "carbs": 12
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 12.00,
+    "price": 12.0,
     "priceUnit": "300g",
     "packageSize": 300,
-    "tags": ["vegan", "frozen"]
+    "tags": [
+      "vegan",
+      "frozen"
+    ]
   },
   {
     "id": "fructe-padure-congelate",
     "name": "Fructe de Pădure Congelate",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 50, "protein": 1, "fat": 0.5, "carbs": 11 },
+    "per100g": {
+      "kcal": 50,
+      "protein": 1,
+      "fat": 0.5,
+      "carbs": 11
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 13.00,
+    "price": 13.0,
     "priceUnit": "450g",
     "packageSize": 450,
-    "tags": ["vegan", "frozen"]
+    "tags": [
+      "vegan",
+      "frozen"
+    ]
   },
   {
     "id": "mango-congelat",
     "name": "Mango Congelat Cuburi",
     "brand": "Lidl",
     "category": "fructe",
-    "per100g": { "kcal": 60, "protein": 0.8, "fat": 0.4, "carbs": 15 },
+    "per100g": {
+      "kcal": 60,
+      "protein": 0.8,
+      "fat": 0.4,
+      "carbs": 15
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 11.00,
+    "price": 11.0,
     "priceUnit": "300g",
     "packageSize": 300,
-    "tags": ["vegan", "frozen"]
+    "tags": [
+      "vegan",
+      "frozen"
+    ]
   },
   {
     "id": "rosii-pasate",
     "name": "Roșii Pasate",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 30, "protein": 1, "fat": 0.3, "carbs": 6 },
+    "per100g": {
+      "kcal": 30,
+      "protein": 1,
+      "fat": 0.3,
+      "carbs": 6
+    },
     "defaultServing": 200,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "rosii-cuburi-conserva",
     "name": "Roșii Cuburi Conservă",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 20, "protein": 0.9, "fat": 0.3, "carbs": 4 },
+    "per100g": {
+      "kcal": 20,
+      "protein": 0.9,
+      "fat": 0.3,
+      "carbs": 4
+    },
     "defaultServing": 200,
     "unit": "g",
-    "price": 4.50,
+    "price": 4.5,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "sos-paste-bio",
     "name": "Sos Paste Bio",
     "brand": "Bio Organic",
     "category": "conserve",
-    "per100g": { "kcal": 45, "protein": 1.5, "fat": 1, "carbs": 7 },
+    "per100g": {
+      "kcal": 45,
+      "protein": 1.5,
+      "fat": 1,
+      "carbs": 7
+    },
     "defaultServing": 150,
     "unit": "g",
     "price": 8.95,
     "priceUnit": "350g",
     "packageSize": 350,
-    "tags": ["vegan", "bio"]
+    "tags": [
+      "vegan",
+      "bio"
+    ]
   },
   {
     "id": "fasole-alba-conserva",
     "name": "Fasole Albă Conservă",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 95, "protein": 5.4, "fat": 0.5, "carbs": 16 },
+    "per100g": {
+      "kcal": 95,
+      "protein": 5.4,
+      "fat": 0.5,
+      "carbs": 16
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "fasole-rosie-conserva",
     "name": "Fasole Roșie Conservă",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 95, "protein": 6, "fat": 0.5, "carbs": 16 },
+    "per100g": {
+      "kcal": 95,
+      "protein": 6,
+      "fat": 0.5,
+      "carbs": 16
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "naut-conserva",
     "name": "Năut Conservă",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 120, "protein": 7, "fat": 2, "carbs": 18 },
+    "per100g": {
+      "kcal": 120,
+      "protein": 7,
+      "fat": 2,
+      "carbs": 18
+    },
     "defaultServing": 150,
     "unit": "g",
-    "price": 5.50,
+    "price": 5.5,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "porumb-conserva",
     "name": "Porumb Conservă",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 86, "protein": 3, "fat": 1.2, "carbs": 18 },
+    "per100g": {
+      "kcal": 86,
+      "protein": 3,
+      "fat": 1.2,
+      "carbs": 18
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 4.50,
+    "price": 4.5,
     "priceUnit": "340g",
     "packageSize": 340,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "mazare-conserva",
     "name": "Mazăre Conservă",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 81, "protein": 5, "fat": 0.4, "carbs": 14 },
+    "per100g": {
+      "kcal": 81,
+      "protein": 5,
+      "fat": 0.4,
+      "carbs": 14
+    },
     "defaultServing": 100,
     "unit": "g",
-    "price": 4.50,
+    "price": 4.5,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "linte-rosie",
     "name": "Linte Roșie",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 353, "protein": 24, "fat": 1.5, "carbs": 60 },
+    "per100g": {
+      "kcal": 353,
+      "protein": 24,
+      "fat": 1.5,
+      "carbs": 60
+    },
     "defaultServing": 80,
     "unit": "g",
     "price": 6.99,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "lapte-cocos",
     "name": "Lapte de Cocos",
     "brand": "Freshona",
     "category": "conserve",
-    "per100g": { "kcal": 197, "protein": 1.6, "fat": 19, "carbs": 4 },
+    "per100g": {
+      "kcal": 197,
+      "protein": 1.6,
+      "fat": 19,
+      "carbs": 4
+    },
     "defaultServing": 100,
     "unit": "g",
     "price": 9.99,
     "priceUnit": "400ml",
     "packageSize": 400,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "ketchup-dulce",
     "name": "Ketchup Dulce",
     "brand": "Freshona",
     "category": "condimente",
-    "per100g": { "kcal": 100, "protein": 1, "fat": 0, "carbs": 24 },
+    "per100g": {
+      "kcal": 100,
+      "protein": 1,
+      "fat": 0,
+      "carbs": 24
+    },
     "defaultServing": 30,
     "unit": "g",
-    "price": 6.00,
+    "price": 6.0,
     "priceUnit": "560g",
     "packageSize": 560,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "mustar",
     "name": "Muștar",
     "brand": "Freshona",
     "category": "condimente",
-    "per100g": { "kcal": 60, "protein": 4, "fat": 3, "carbs": 5 },
+    "per100g": {
+      "kcal": 60,
+      "protein": 4,
+      "fat": 3,
+      "carbs": 5
+    },
     "defaultServing": 15,
     "unit": "g",
-    "price": 4.00,
+    "price": 4.0,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "ulei-masline",
     "name": "Ulei de Măsline",
     "brand": "Solesta",
     "category": "condimente",
-    "per100g": { "kcal": 884, "protein": 0, "fat": 100, "carbs": 0 },
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "fat": 100,
+      "carbs": 0
+    },
     "defaultServing": 10,
     "unit": "g",
-    "price": 20.00,
+    "price": 20.0,
     "priceUnit": "500ml",
     "packageSize": 500,
-    "tags": ["vegan"]
-  },
-  {
-    "id": "parmezan-ras",
-    "name": "Parmezan Ras",
-    "brand": "Milbona",
-    "category": "condimente",
-    "per100g": { "kcal": 390, "protein": 35, "fat": 27, "carbs": 3 },
-    "defaultServing": 20,
-    "unit": "g",
-    "price": 10.00,
-    "priceUnit": "100g",
-    "packageSize": 100,
-    "tags": ["high-protein"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "unt-arahide",
     "name": "Unt de Arahide",
     "brand": "Alesto",
     "category": "condimente",
-    "per100g": { "kcal": 588, "protein": 25, "fat": 50, "carbs": 13 },
+    "per100g": {
+      "kcal": 588,
+      "protein": 25,
+      "fat": 50,
+      "carbs": 13
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 18.99,
     "priceUnit": "350g",
     "packageSize": 350,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "sos-soia",
     "name": "Sos de Soia",
     "brand": "Freshona",
     "category": "condimente",
-    "per100g": { "kcal": 53, "protein": 5, "fat": 0, "carbs": 7 },
+    "per100g": {
+      "kcal": 53,
+      "protein": 5,
+      "fat": 0,
+      "carbs": 7
+    },
     "defaultServing": 15,
     "unit": "g",
-    "price": 5.00,
+    "price": 5.0,
     "priceUnit": "150ml",
     "packageSize": 150,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "miere",
     "name": "Miere de Flori",
     "brand": "Bihopure",
     "category": "condimente",
-    "per100g": { "kcal": 304, "protein": 0.3, "fat": 0, "carbs": 82 },
+    "per100g": {
+      "kcal": 304,
+      "protein": 0.3,
+      "fat": 0,
+      "carbs": 82
+    },
     "defaultServing": 20,
     "unit": "g",
     "price": 15.99,
     "priceUnit": "500g",
     "packageSize": 500,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "seminte-chia",
     "name": "Semințe de Chia",
     "brand": "Harvest Basket",
     "category": "condimente",
-    "per100g": { "kcal": 486, "protein": 17, "fat": 31, "carbs": 42 },
+    "per100g": {
+      "kcal": 486,
+      "protein": 17,
+      "fat": 31,
+      "carbs": 42
+    },
     "defaultServing": 20,
     "unit": "g",
-    "price": 12.00,
+    "price": 12.0,
     "priceUnit": "150g",
     "packageSize": 150,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "tahini",
     "name": "Tahini (Pastă Susan)",
     "brand": "Harvest Basket",
     "category": "condimente",
-    "per100g": { "kcal": 570, "protein": 17, "fat": 50, "carbs": 26 },
+    "per100g": {
+      "kcal": 570,
+      "protein": 17,
+      "fat": 50,
+      "carbs": 26
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 15.99,
     "priceUnit": "300g",
     "packageSize": 300,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "otet-balsamic",
     "name": "Oțet Balsamic",
     "brand": "Solesta",
     "category": "condimente",
-    "per100g": { "kcal": 88, "protein": 0.5, "fat": 0, "carbs": 23 },
+    "per100g": {
+      "kcal": 88,
+      "protein": 0.5,
+      "fat": 0,
+      "carbs": 23
+    },
     "defaultServing": 15,
     "unit": "g",
-    "price": 12.00,
+    "price": 12.0,
     "priceUnit": "250ml",
     "packageSize": 250,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "oua",
     "name": "Ouă (10 buc)",
     "brand": "Lidl",
     "category": "altele",
-    "per100g": { "kcal": 155, "protein": 13, "fat": 11, "carbs": 1 },
+    "per100g": {
+      "kcal": 155,
+      "protein": 13,
+      "fat": 11,
+      "carbs": 1
+    },
     "defaultServing": 60,
     "unit": "g",
     "price": 9.99,
@@ -1317,77 +2034,2556 @@
     "name": "Albuș de Ou Lichid",
     "brand": "Milbona",
     "category": "altele",
-    "per100g": { "kcal": 52, "protein": 11, "fat": 0.2, "carbs": 0.5 },
+    "per100g": {
+      "kcal": 52,
+      "protein": 11,
+      "fat": 0.2,
+      "carbs": 0.5
+    },
     "defaultServing": 150,
     "unit": "g",
     "price": 15.99,
     "priceUnit": "500ml",
     "packageSize": 500,
-    "tags": ["high-protein", "low-fat"]
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ]
   },
   {
     "id": "tofu",
     "name": "Tofu Natural",
     "brand": "Vemondo",
     "category": "altele",
-    "per100g": { "kcal": 120, "protein": 12, "fat": 7, "carbs": 2 },
+    "per100g": {
+      "kcal": 120,
+      "protein": 12,
+      "fat": 7,
+      "carbs": 2
+    },
     "defaultServing": 150,
     "unit": "g",
     "price": 8.99,
     "priceUnit": "400g",
     "packageSize": 400,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "hummus-clasic",
     "name": "Hummus Clasic",
     "brand": "Freshona",
     "category": "altele",
-    "per100g": { "kcal": 180, "protein": 6, "fat": 11, "carbs": 16 },
+    "per100g": {
+      "kcal": 180,
+      "protein": 6,
+      "fat": 11,
+      "carbs": 16
+    },
     "defaultServing": 80,
     "unit": "g",
     "price": 9.99,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "migdale-crude",
     "name": "Migdale Crude",
     "brand": "Alesto",
     "category": "altele",
-    "per100g": { "kcal": 575, "protein": 21, "fat": 50, "carbs": 22 },
+    "per100g": {
+      "kcal": 575,
+      "protein": 21,
+      "fat": 50,
+      "carbs": 22
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 18.99,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["vegan", "high-protein"]
+    "tags": [
+      "vegan",
+      "high-protein"
+    ]
   },
   {
     "id": "nuci-caju",
     "name": "Nuci Caju",
     "brand": "Alesto",
     "category": "altele",
-    "per100g": { "kcal": 553, "protein": 18, "fat": 44, "carbs": 30 },
+    "per100g": {
+      "kcal": 553,
+      "protein": 18,
+      "fat": 44,
+      "carbs": 30
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 22.99,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
   },
   {
     "id": "mix-nuci-seminte",
     "name": "Mix Nuci & Semințe",
     "brand": "Alesto",
     "category": "altele",
-    "per100g": { "kcal": 560, "protein": 17, "fat": 48, "carbs": 22 },
+    "per100g": {
+      "kcal": 560,
+      "protein": 17,
+      "fat": 48,
+      "carbs": 22
+    },
     "defaultServing": 30,
     "unit": "g",
     "price": 15.99,
     "priceUnit": "200g",
     "packageSize": 200,
-    "tags": ["vegan"]
+    "tags": [
+      "vegan"
+    ]
+  },
+  {
+    "id": "pilos-skyr-vanilie",
+    "name": "Pilos Skyr Vanilie",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 53,
+      "protein": 8.8,
+      "fat": 0.2,
+      "carbs": 4.1
+    },
+    "defaultServing": 200,
+    "price": 8.99,
+    "packageSize": 450,
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "450g"
+  },
+  {
+    "id": "milbona-iaurt-proteic-capsuni",
+    "name": "Milbona Iaurt Proteic Căpșuni",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 57,
+      "protein": 8.3,
+      "fat": 0.3,
+      "carbs": 4.5
+    },
+    "defaultServing": 200,
+    "price": 5.99,
+    "packageSize": 200,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "milbona-high-protein-drink-cioc",
+    "name": "Băutură Proteică Ciocolată",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 60,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 4.3
+    },
+    "defaultServing": 300,
+    "price": 7.59,
+    "packageSize": 300,
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "milbona-high-protein-drink-capsuni",
+    "name": "Băutură Proteică Căpșuni/Banane",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 60,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 4.3
+    },
+    "defaultServing": 300,
+    "price": 7.59,
+    "packageSize": 300,
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "milbona-high-protein-drink-vanilie",
+    "name": "Băutură Proteică Vanilie",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 60,
+      "protein": 8.3,
+      "fat": 0.5,
+      "carbs": 4.3
+    },
+    "defaultServing": 300,
+    "price": 7.59,
+    "packageSize": 300,
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "milbona-cream-spread-hp",
+    "name": "Milbona Cream Spread High Protein",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 139,
+      "protein": 10.4,
+      "fat": 9,
+      "carbs": 3.6
+    },
+    "defaultServing": 30,
+    "price": 6.99,
+    "packageSize": 150,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "150g"
+  },
+  {
+    "id": "pilos-iaurt-natur-1.5",
+    "name": "Pilos Iaurt Natur 1.5%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 43,
+      "protein": 4.3,
+      "fat": 1.5,
+      "carbs": 3.5
+    },
+    "defaultServing": 200,
+    "price": 4.99,
+    "packageSize": 1,
+    "tags": [
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "pilos-iaurt-natur-3.5",
+    "name": "Pilos Iaurt Natur 3.5%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 63,
+      "protein": 3.8,
+      "fat": 3.5,
+      "carbs": 4
+    },
+    "defaultServing": 200,
+    "price": 3.99,
+    "packageSize": 375,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "375g"
+  },
+  {
+    "id": "pilos-iaurt-natur-10",
+    "name": "Pilos Iaurt Natur 10%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 123,
+      "protein": 4,
+      "fat": 10,
+      "carbs": 4.2
+    },
+    "defaultServing": 140,
+    "price": 3.29,
+    "packageSize": 140,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "140g"
+  },
+  {
+    "id": "pilos-iaurt-baut-2",
+    "name": "Pilos Iaurt de Băut 2%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 46,
+      "protein": 3.2,
+      "fat": 2,
+      "carbs": 3.7
+    },
+    "defaultServing": 400,
+    "price": 2.09,
+    "packageSize": 400,
+    "tags": [
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "400g"
+  },
+  {
+    "id": "pilos-branza-cottage",
+    "name": "Pilos Cottage Cheese",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 92,
+      "protein": 12,
+      "fat": 4,
+      "carbs": 1.5
+    },
+    "defaultServing": 100,
+    "price": 5.49,
+    "packageSize": 200,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "milbona-cheddar-ras",
+    "name": "Milbona Cheddar Ras",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 392,
+      "protein": 25,
+      "fat": 32,
+      "carbs": 1.5
+    },
+    "defaultServing": 20,
+    "price": 13.99,
+    "packageSize": 250,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "250g"
+  },
+  {
+    "id": "pilos-parmezan-ras",
+    "name": "Parmezan Ras",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 390,
+      "protein": 35,
+      "fat": 27,
+      "carbs": 3
+    },
+    "defaultServing": 10,
+    "price": 9.99,
+    "packageSize": 100,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "100g"
+  },
+  {
+    "id": "milbona-feta-dop",
+    "name": "Milbona Brânză Feta DOP",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 287,
+      "protein": 17.6,
+      "fat": 24,
+      "carbs": 0.2
+    },
+    "defaultServing": 50,
+    "price": 8.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "pilos-telemea-vaca",
+    "name": "Pilos Telemea de Vacă",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 250,
+      "protein": 16,
+      "fat": 20,
+      "carbs": 1
+    },
+    "defaultServing": 50,
+    "price": 5.69,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "pilos-cascaval-afumat",
+    "name": "Pilos Cașcaval Afumat Feliat",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 330,
+      "protein": 25,
+      "fat": 25,
+      "carbs": 1
+    },
+    "defaultServing": 30,
+    "price": 8.99,
+    "packageSize": 250,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "250g"
+  },
+  {
+    "id": "pilos-lapte-3.5",
+    "name": "Pilos Lapte Integral 3.5%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 64,
+      "protein": 3.3,
+      "fat": 3.5,
+      "carbs": 4.8
+    },
+    "defaultServing": 250,
+    "price": 7.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1L"
+  },
+  {
+    "id": "pilos-lapte-1.5",
+    "name": "Pilos Lapte 1.5%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 46,
+      "protein": 3.4,
+      "fat": 1.5,
+      "carbs": 4.9
+    },
+    "defaultServing": 250,
+    "price": 6.99,
+    "packageSize": 1,
+    "tags": [
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "1L"
+  },
+  {
+    "id": "pilos-smantana-12",
+    "name": "Pilos Smântână 12%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 131,
+      "protein": 3,
+      "fat": 12,
+      "carbs": 3.5
+    },
+    "defaultServing": 30,
+    "price": 3.49,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "pilos-oua-10",
+    "name": "Pilos Ouă 10 buc (mărime M)",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 143,
+      "protein": 12.5,
+      "fat": 9.7,
+      "carbs": 0.7
+    },
+    "defaultServing": 60,
+    "price": 10.99,
+    "packageSize": 10,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "10 buc"
+  },
+  {
+    "id": "pilos-unt-82",
+    "name": "Pilos Unt 82%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 738,
+      "protein": 0.6,
+      "fat": 82,
+      "carbs": 0.6
+    },
+    "defaultServing": 10,
+    "price": 7.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "pilos-kefir-bio",
+    "name": "Pilos Kefir Bio 3.3%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 56,
+      "protein": 3.2,
+      "fat": 3.3,
+      "carbs": 3.4
+    },
+    "defaultServing": 200,
+    "price": 4.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "chef-select-wrap-pui",
+    "name": "Chef Select Wrap cu Piept de Pui",
+    "brand": "Chef Select",
+    "category": "carne",
+    "per100g": {
+      "kcal": 160,
+      "protein": 6.7,
+      "fat": 6.8,
+      "carbs": 16.6
+    },
+    "defaultServing": 230,
+    "price": 5.99,
+    "packageSize": 230,
+    "tags": [
+      "ready-to-eat"
+    ],
+    "unit": "g",
+    "priceUnit": "230g"
+  },
+  {
+    "id": "pulpe-pui-intregi",
+    "name": "Pulpe Întregi de Pui (caserolă)",
+    "brand": "Lidl",
+    "category": "carne",
+    "per100g": {
+      "kcal": 152,
+      "protein": 17,
+      "fat": 9,
+      "carbs": 0
+    },
+    "defaultServing": 200,
+    "price": 9.9,
+    "packageSize": 2,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "~2kg"
+  },
+  {
+    "id": "cotlet-porc-fara-os",
+    "name": "Cotlet de Porc fără Os",
+    "brand": "Lidl",
+    "category": "carne",
+    "per100g": {
+      "kcal": 143,
+      "protein": 21,
+      "fat": 6,
+      "carbs": 0
+    },
+    "defaultServing": 200,
+    "price": 27.9,
+    "packageSize": 1,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "muschiulet-porc",
+    "name": "Mușchiuleț de Porc",
+    "brand": "Lidl",
+    "category": "carne",
+    "per100g": {
+      "kcal": 143,
+      "protein": 21,
+      "fat": 6.5,
+      "carbs": 0
+    },
+    "defaultServing": 150,
+    "price": 34.9,
+    "packageSize": 1,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "pikok-bacon-porc",
+    "name": "Pikok Bacon de Porc Feliat",
+    "brand": "Pikok",
+    "category": "carne",
+    "per100g": {
+      "kcal": 255,
+      "protein": 16,
+      "fat": 20.6,
+      "carbs": 1.3
+    },
+    "defaultServing": 30,
+    "price": 8.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "pikok-sunca-piept-pui",
+    "name": "Pikok Șuncă Piept de Pui",
+    "brand": "Pikok",
+    "category": "mezeluri",
+    "per100g": {
+      "kcal": 90,
+      "protein": 17,
+      "fat": 2,
+      "carbs": 1
+    },
+    "defaultServing": 50,
+    "price": 8.99,
+    "packageSize": 200,
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "pikok-sunca-praga",
+    "name": "Pikok Șuncă Praga",
+    "brand": "Pikok",
+    "category": "mezeluri",
+    "per100g": {
+      "kcal": 120,
+      "protein": 18,
+      "fat": 5,
+      "carbs": 1
+    },
+    "defaultServing": 50,
+    "price": 11.99,
+    "packageSize": 250,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "250g"
+  },
+  {
+    "id": "pikok-salam-patrat",
+    "name": "Pikok Salam Pătrat Porc/Vită",
+    "brand": "Pikok",
+    "category": "mezeluri",
+    "per100g": {
+      "kcal": 280,
+      "protein": 14,
+      "fat": 24,
+      "carbs": 2
+    },
+    "defaultServing": 30,
+    "price": 18.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "pikok-cremwursti",
+    "name": "Pikok Cremwurști",
+    "brand": "Pikok",
+    "category": "mezeluri",
+    "per100g": {
+      "kcal": 230,
+      "protein": 11,
+      "fat": 20,
+      "carbs": 2
+    },
+    "defaultServing": 100,
+    "price": 7.99,
+    "packageSize": 300,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "pikok-carnati-silezia",
+    "name": "Pikok Cârnați Silezia",
+    "brand": "Pikok",
+    "category": "mezeluri",
+    "per100g": {
+      "kcal": 250,
+      "protein": 13,
+      "fat": 22,
+      "carbs": 1
+    },
+    "defaultServing": 100,
+    "price": 13.99,
+    "packageSize": 550,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "550g"
+  },
+  {
+    "id": "baroni-salam-vara",
+    "name": "Baroni Salam de Vară",
+    "brand": "Baroni",
+    "category": "mezeluri",
+    "per100g": {
+      "kcal": 350,
+      "protein": 20,
+      "fat": 30,
+      "carbs": 1
+    },
+    "defaultServing": 30,
+    "price": 9.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "baroni-parizer",
+    "name": "Baroni Parizer Feliat",
+    "brand": "Baroni",
+    "category": "mezeluri",
+    "per100g": {
+      "kcal": 190,
+      "protein": 10,
+      "fat": 15,
+      "carbs": 5
+    },
+    "defaultServing": 50,
+    "price": 3.4,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "sardine-conserva",
+    "name": "Sardine în Ulei",
+    "brand": "Nixe",
+    "category": "peste",
+    "per100g": {
+      "kcal": 220,
+      "protein": 21,
+      "fat": 15,
+      "carbs": 0
+    },
+    "defaultServing": 100,
+    "price": 5.99,
+    "packageSize": 125,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "125g"
+  },
+  {
+    "id": "macrou-conserva",
+    "name": "Macrou în Sos de Roșii",
+    "brand": "Nixe",
+    "category": "peste",
+    "per100g": {
+      "kcal": 150,
+      "protein": 14,
+      "fat": 9,
+      "carbs": 3
+    },
+    "defaultServing": 125,
+    "price": 5.49,
+    "packageSize": 125,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "125g"
+  },
+  {
+    "id": "tofu-natur",
+    "name": "Tofu Natur",
+    "brand": "Lidl",
+    "category": "vegetale",
+    "per100g": {
+      "kcal": 120,
+      "protein": 12,
+      "fat": 7,
+      "carbs": 1
+    },
+    "defaultServing": 100,
+    "price": 5.99,
+    "packageSize": 200,
+    "tags": [
+      "veggie",
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "chifle-brioche-burger",
+    "name": "Chifle Brioche Hamburger (4 buc)",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 320,
+      "protein": 8,
+      "fat": 8,
+      "carbs": 52
+    },
+    "defaultServing": 65,
+    "price": 7.49,
+    "packageSize": 4,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "4 buc"
+  },
+  {
+    "id": "paine-toast-alba",
+    "name": "Pâine Toast Albă",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 260,
+      "protein": 8,
+      "fat": 3,
+      "carbs": 48
+    },
+    "defaultServing": 25,
+    "price": 4.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "paine-toast-integrala",
+    "name": "Pâine Toast Integrală",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 240,
+      "protein": 10,
+      "fat": 3,
+      "carbs": 42
+    },
+    "defaultServing": 25,
+    "price": 5.49,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "paine-secara-brio",
+    "name": "Pâine de Secară Brio",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 210,
+      "protein": 6,
+      "fat": 1,
+      "carbs": 43
+    },
+    "defaultServing": 30,
+    "price": 4.49,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "paine-protein",
+    "name": "Pâine Proteică",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 238,
+      "protein": 22,
+      "fat": 6.5,
+      "carbs": 12
+    },
+    "defaultServing": 40,
+    "price": 8.99,
+    "packageSize": 250,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "250g"
+  },
+  {
+    "id": "covrig-seminte",
+    "name": "Covrig cu Semințe",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 310,
+      "protein": 10,
+      "fat": 7,
+      "carbs": 48
+    },
+    "defaultServing": 80,
+    "price": 1.49,
+    "packageSize": 80,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "80g"
+  },
+  {
+    "id": "bagueta",
+    "name": "Demibaghetă",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 270,
+      "protein": 9,
+      "fat": 1.5,
+      "carbs": 55
+    },
+    "defaultServing": 125,
+    "price": 0.99,
+    "packageSize": 125,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "125g"
+  },
+  {
+    "id": "paste-penne",
+    "name": "Paste Penne",
+    "brand": "Combino",
+    "category": "paste",
+    "per100g": {
+      "kcal": 350,
+      "protein": 12,
+      "fat": 1.5,
+      "carbs": 72
+    },
+    "defaultServing": 80,
+    "price": 4.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "paste-fusilli",
+    "name": "Paste Fusilli",
+    "brand": "Combino",
+    "category": "paste",
+    "per100g": {
+      "kcal": 350,
+      "protein": 12,
+      "fat": 1.5,
+      "carbs": 72
+    },
+    "defaultServing": 80,
+    "price": 4.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "paste-tagliatelle",
+    "name": "Tagliatelle cu Ou",
+    "brand": "Combino",
+    "category": "paste",
+    "per100g": {
+      "kcal": 360,
+      "protein": 13,
+      "fat": 3,
+      "carbs": 68
+    },
+    "defaultServing": 80,
+    "price": 5.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "orez-bob-lung",
+    "name": "Orez Bob Lung",
+    "brand": "Lidl",
+    "category": "paste",
+    "per100g": {
+      "kcal": 350,
+      "protein": 7,
+      "fat": 0.5,
+      "carbs": 78
+    },
+    "defaultServing": 70,
+    "price": 5.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "cous-cous",
+    "name": "Cous Cous",
+    "brand": "Lidl",
+    "category": "paste",
+    "per100g": {
+      "kcal": 360,
+      "protein": 12,
+      "fat": 1.5,
+      "carbs": 72
+    },
+    "defaultServing": 60,
+    "price": 4.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "bulgur",
+    "name": "Bulgur",
+    "brand": "Lidl",
+    "category": "paste",
+    "per100g": {
+      "kcal": 340,
+      "protein": 12,
+      "fat": 1.5,
+      "carbs": 68
+    },
+    "defaultServing": 60,
+    "price": 5.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "masline-negre",
+    "name": "Măsline Negre",
+    "brand": "Lidl",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 150,
+      "protein": 1,
+      "fat": 15,
+      "carbs": 2
+    },
+    "defaultServing": 30,
+    "price": 5.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "rosii-kg",
+    "name": "Roșii",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 18,
+      "protein": 0.9,
+      "fat": 0.2,
+      "carbs": 3.9
+    },
+    "defaultServing": 100,
+    "price": 9.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "ceapa-rosie",
+    "name": "Ceapă Roșie",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 40,
+      "protein": 1.1,
+      "fat": 0.1,
+      "carbs": 9
+    },
+    "defaultServing": 50,
+    "price": 3.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "ceapa-alba",
+    "name": "Ceapă Albă",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 40,
+      "protein": 1.1,
+      "fat": 0.1,
+      "carbs": 9
+    },
+    "defaultServing": 50,
+    "price": 2.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "usturoi",
+    "name": "Usturoi",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 149,
+      "protein": 6,
+      "fat": 0.5,
+      "carbs": 33
+    },
+    "defaultServing": 5,
+    "price": 4.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "mix-legume-supa",
+    "name": "Amestec Legume pentru Supă Congelat",
+    "brand": "Freshona",
+    "category": "legume",
+    "per100g": {
+      "kcal": 35,
+      "protein": 1.5,
+      "fat": 0.3,
+      "carbs": 6
+    },
+    "defaultServing": 150,
+    "price": 3.09,
+    "packageSize": 450,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "450g"
+  },
+  {
+    "id": "cartofi-kg",
+    "name": "Cartofi",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 77,
+      "protein": 2,
+      "fat": 0.1,
+      "carbs": 17
+    },
+    "defaultServing": 200,
+    "price": 3.99,
+    "packageSize": 2,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "2.5kg"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado (1 buc)",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 160,
+      "protein": 2,
+      "fat": 15,
+      "carbs": 8.5
+    },
+    "defaultServing": 80,
+    "price": 3.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "~200g"
+  },
+  {
+    "id": "ciuperci-champignon",
+    "name": "Ciuperci Champignon",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 22,
+      "protein": 3.1,
+      "fat": 0.3,
+      "carbs": 3.3
+    },
+    "defaultServing": 100,
+    "price": 4.99,
+    "packageSize": 400,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "400g"
+  },
+  {
+    "id": "banane-kg",
+    "name": "Banane",
+    "brand": "Lidl",
+    "category": "fructe",
+    "per100g": {
+      "kcal": 89,
+      "protein": 1.1,
+      "fat": 0.3,
+      "carbs": 23
+    },
+    "defaultServing": 120,
+    "price": 8.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "mere-kg",
+    "name": "Mere",
+    "brand": "Lidl",
+    "category": "fructe",
+    "per100g": {
+      "kcal": 52,
+      "protein": 0.3,
+      "fat": 0.2,
+      "carbs": 14
+    },
+    "defaultServing": 150,
+    "price": 5.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "portocale-kg",
+    "name": "Portocale",
+    "brand": "Lidl",
+    "category": "fructe",
+    "per100g": {
+      "kcal": 47,
+      "protein": 0.9,
+      "fat": 0.1,
+      "carbs": 12
+    },
+    "defaultServing": 150,
+    "price": 5.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "kiwi",
+    "name": "Kiwi",
+    "brand": "Lidl",
+    "category": "fructe",
+    "per100g": {
+      "kcal": 61,
+      "protein": 1.1,
+      "fat": 0.5,
+      "carbs": 15
+    },
+    "defaultServing": 75,
+    "price": 5.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "ulei-floarea-soarelui",
+    "name": "Ulei Floarea Soarelui",
+    "brand": "Lidl",
+    "category": "condimente",
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "fat": 100,
+      "carbs": 0
+    },
+    "defaultServing": 10,
+    "price": 7.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1L"
+  },
+  {
+    "id": "sare",
+    "name": "Sare",
+    "brand": "Lidl",
+    "category": "condimente",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "defaultServing": 2,
+    "price": 1.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "piper-negru",
+    "name": "Piper Negru Măcinat",
+    "brand": "Lidl",
+    "category": "condimente",
+    "per100g": {
+      "kcal": 255,
+      "protein": 10,
+      "fat": 3,
+      "carbs": 64
+    },
+    "defaultServing": 1,
+    "price": 3.99,
+    "packageSize": 50,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "50g"
+  },
+  {
+    "id": "boia-dulce",
+    "name": "Boia Dulce",
+    "brand": "Lidl",
+    "category": "condimente",
+    "per100g": {
+      "kcal": 282,
+      "protein": 14,
+      "fat": 13,
+      "carbs": 54
+    },
+    "defaultServing": 2,
+    "price": 3.49,
+    "packageSize": 80,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "80g"
+  },
+  {
+    "id": "usturoi-pudra",
+    "name": "Usturoi Pudră",
+    "brand": "Lidl",
+    "category": "condimente",
+    "per100g": {
+      "kcal": 332,
+      "protein": 17,
+      "fat": 0.7,
+      "carbs": 73
+    },
+    "defaultServing": 2,
+    "price": 3.99,
+    "packageSize": 70,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "70g"
+  },
+  {
+    "id": "maioneza",
+    "name": "Maioneză",
+    "brand": "Lidl",
+    "category": "condimente",
+    "per100g": {
+      "kcal": 680,
+      "protein": 1,
+      "fat": 75,
+      "carbs": 1
+    },
+    "defaultServing": 15,
+    "price": 5.99,
+    "packageSize": 450,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "450g"
+  },
+  {
+    "id": "sos-ranch",
+    "name": "Sos Ranch/Cezar",
+    "brand": "Lidl",
+    "category": "condimente",
+    "per100g": {
+      "kcal": 350,
+      "protein": 1.5,
+      "fat": 35,
+      "carbs": 5
+    },
+    "defaultServing": 20,
+    "price": 5.99,
+    "packageSize": 250,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "250ml"
+  },
+  {
+    "id": "alesto-migdale",
+    "name": "Alesto Migdale",
+    "brand": "Alesto",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 575,
+      "protein": 21,
+      "fat": 49,
+      "carbs": 9
+    },
+    "defaultServing": 30,
+    "price": 12.99,
+    "packageSize": 200,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "alesto-nuci-caju",
+    "name": "Alesto Nuci Caju",
+    "brand": "Alesto",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 553,
+      "protein": 18,
+      "fat": 44,
+      "carbs": 30
+    },
+    "defaultServing": 30,
+    "price": 14.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "alesto-arahide",
+    "name": "Alesto Arahide",
+    "brand": "Alesto",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 567,
+      "protein": 26,
+      "fat": 49,
+      "carbs": 16
+    },
+    "defaultServing": 30,
+    "price": 6.99,
+    "packageSize": 200,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "alesto-mix-trail",
+    "name": "Alesto Mix Energie (trail mix)",
+    "brand": "Alesto",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 460,
+      "protein": 14,
+      "fat": 28,
+      "carbs": 40
+    },
+    "defaultServing": 40,
+    "price": 9.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "alesto-seminte-floarea-soarelui",
+    "name": "Alesto Semințe Floarea Soarelui",
+    "brand": "Alesto",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 584,
+      "protein": 21,
+      "fat": 51,
+      "carbs": 20
+    },
+    "defaultServing": 30,
+    "price": 4.99,
+    "packageSize": 200,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "alesto-seminte-dovleac",
+    "name": "Alesto Semințe Dovleac",
+    "brand": "Alesto",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 559,
+      "protein": 30,
+      "fat": 49,
+      "carbs": 5
+    },
+    "defaultServing": 30,
+    "price": 7.99,
+    "packageSize": 200,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "ovaz-fulgi",
+    "name": "Fulgi de Ovăz",
+    "brand": "Lidl",
+    "category": "cereale",
+    "per100g": {
+      "kcal": 370,
+      "protein": 13,
+      "fat": 7,
+      "carbs": 58
+    },
+    "defaultServing": 50,
+    "price": 4.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "granola-clasica",
+    "name": "Granola Clasică",
+    "brand": "Lidl",
+    "category": "cereale",
+    "per100g": {
+      "kcal": 440,
+      "protein": 10,
+      "fat": 15,
+      "carbs": 65
+    },
+    "defaultServing": 50,
+    "price": 7.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "granola-proteica",
+    "name": "Granola Proteică",
+    "brand": "Lidl",
+    "category": "cereale",
+    "per100g": {
+      "kcal": 420,
+      "protein": 20,
+      "fat": 14,
+      "carbs": 48
+    },
+    "defaultServing": 50,
+    "price": 9.99,
+    "packageSize": 300,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "muesli-fructe",
+    "name": "Müsli cu Fructe",
+    "brand": "Lidl",
+    "category": "cereale",
+    "per100g": {
+      "kcal": 360,
+      "protein": 9,
+      "fat": 5,
+      "carbs": 68
+    },
+    "defaultServing": 50,
+    "price": 6.99,
+    "packageSize": 750,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "750g"
+  },
+  {
+    "id": "miere-de-albine",
+    "name": "Miere de Albine",
+    "brand": "Lidl",
+    "category": "cereale",
+    "per100g": {
+      "kcal": 304,
+      "protein": 0.3,
+      "fat": 0,
+      "carbs": 82
+    },
+    "defaultServing": 15,
+    "price": 14.99,
+    "packageSize": 350,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "350g"
+  },
+  {
+    "id": "zahar",
+    "name": "Zahăr Alb",
+    "brand": "Diamant",
+    "category": "bacanie",
+    "per100g": {
+      "kcal": 400,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 100
+    },
+    "defaultServing": 10,
+    "price": 4.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "faina-alba",
+    "name": "Făină Albă 000",
+    "brand": "Lidl",
+    "category": "bacanie",
+    "per100g": {
+      "kcal": 345,
+      "protein": 10,
+      "fat": 1,
+      "carbs": 72
+    },
+    "defaultServing": 100,
+    "price": 3.49,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "ciocolata-neagra-70",
+    "name": "Ciocolată Neagră 70%",
+    "brand": "Fin Carré",
+    "category": "bacanie",
+    "per100g": {
+      "kcal": 540,
+      "protein": 8,
+      "fat": 38,
+      "carbs": 40
+    },
+    "defaultServing": 25,
+    "price": 5.99,
+    "packageSize": 100,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "100g"
+  },
+  {
+    "id": "apa-plata",
+    "name": "Apă Plată",
+    "brand": "Lidl",
+    "category": "bauturi",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "defaultServing": 500,
+    "price": 1.49,
+    "packageSize": 2,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "2L"
+  },
+  {
+    "id": "apa-minerala",
+    "name": "Apă Minerală",
+    "brand": "Lidl",
+    "category": "bauturi",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "defaultServing": 500,
+    "price": 2.49,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1.5L"
+  },
+  {
+    "id": "cafea-boabe",
+    "name": "Cafea Boabe",
+    "brand": "Bellarom",
+    "category": "bauturi",
+    "per100g": {
+      "kcal": 2,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "defaultServing": 250,
+    "price": 24.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "ceai-verde",
+    "name": "Ceai Verde",
+    "brand": "Sir Edward",
+    "category": "bauturi",
+    "per100g": {
+      "kcal": 1,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "defaultServing": 250,
+    "price": 3.99,
+    "packageSize": 20,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "20 pliculete"
+  },
+  {
+    "id": "suc-portocale-100",
+    "name": "Suc Portocale 100%",
+    "brand": "Vitafit",
+    "category": "bauturi",
+    "per100g": {
+      "kcal": 42,
+      "protein": 0.7,
+      "fat": 0.1,
+      "carbs": 10
+    },
+    "defaultServing": 250,
+    "price": 6.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1L"
+  },
+  {
+    "id": "red-bull",
+    "name": "Red Bull Energizant",
+    "brand": "Red Bull",
+    "category": "bauturi",
+    "per100g": {
+      "kcal": 45,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 11
+    },
+    "defaultServing": 250,
+    "price": 6.25,
+    "packageSize": 250,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "250ml"
+  },
+  {
+    "id": "pizza-congelata-margherita",
+    "name": "Pizza Congelată Margherita",
+    "brand": "Trattoria Alfredo",
+    "category": "congelate",
+    "per100g": {
+      "kcal": 230,
+      "protein": 10,
+      "fat": 9,
+      "carbs": 28
+    },
+    "defaultServing": 350,
+    "price": 9.99,
+    "packageSize": 350,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "350g"
+  },
+  {
+    "id": "pizza-congelata-salami",
+    "name": "Pizza Congelată Salami",
+    "brand": "Trattoria Alfredo",
+    "category": "congelate",
+    "per100g": {
+      "kcal": 250,
+      "protein": 11,
+      "fat": 11,
+      "carbs": 28
+    },
+    "defaultServing": 350,
+    "price": 9.99,
+    "packageSize": 350,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "350g"
+  },
+  {
+    "id": "cartofi-pai-congelati",
+    "name": "Cartofi Pai Congelați",
+    "brand": "Freshona",
+    "category": "congelate",
+    "per100g": {
+      "kcal": 150,
+      "protein": 2,
+      "fat": 5,
+      "carbs": 24
+    },
+    "defaultServing": 200,
+    "price": 6.99,
+    "packageSize": 750,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "750g"
+  },
+  {
+    "id": "nuggets-pui-congelat",
+    "name": "Nuggets de Pui Congelat",
+    "brand": "Chef Select",
+    "category": "congelate",
+    "per100g": {
+      "kcal": 230,
+      "protein": 14,
+      "fat": 12,
+      "carbs": 17
+    },
+    "defaultServing": 150,
+    "price": 12.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "tortilla-chips",
+    "name": "Tortilla Chips",
+    "brand": "Snackday",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 480,
+      "protein": 7,
+      "fat": 22,
+      "carbs": 60
+    },
+    "defaultServing": 40,
+    "price": 5.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "baton-proteic",
+    "name": "Baton Proteic",
+    "brand": "Lidl",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 350,
+      "protein": 30,
+      "fat": 12,
+      "carbs": 30
+    },
+    "defaultServing": 45,
+    "price": 4.99,
+    "packageSize": 45,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "45g"
+  },
+  {
+    "id": "rice-cakes",
+    "name": "Vafe de Orez",
+    "brand": "Lidl",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 380,
+      "protein": 8,
+      "fat": 3,
+      "carbs": 80
+    },
+    "defaultServing": 10,
+    "price": 3.99,
+    "packageSize": 130,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "130g"
+  },
+  {
+    "id": "castraveti-murati",
+    "name": "Castraveți Murați",
+    "brand": "Freshona",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 14,
+      "protein": 0.5,
+      "fat": 0.1,
+      "carbs": 2.5
+    },
+    "defaultServing": 50,
+    "price": 4.99,
+    "packageSize": 670,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "670g"
+  },
+  {
+    "id": "gogosari-murati",
+    "name": "Gogosari Murați",
+    "brand": "Freshona",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 20,
+      "protein": 0.5,
+      "fat": 0.1,
+      "carbs": 4
+    },
+    "defaultServing": 50,
+    "price": 5.99,
+    "packageSize": 670,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "670g"
+  },
+  {
+    "id": "zacusca",
+    "name": "Zacuscă de Vinete",
+    "brand": "Bunătăți de Topiloveni",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 120,
+      "protein": 2,
+      "fat": 7,
+      "carbs": 12
+    },
+    "defaultServing": 50,
+    "price": 7.49,
+    "packageSize": 300,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "camara-lapte-integral",
+    "name": "Cămara Noastră Lapte Integral",
+    "brand": "Cămara Noastră",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 64,
+      "protein": 3.3,
+      "fat": 3.5,
+      "carbs": 4.8
+    },
+    "defaultServing": 250,
+    "price": 7.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1L"
+  },
+  {
+    "id": "camara-smantana-cooking",
+    "name": "Smântână pt Gătit 10%",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 110,
+      "protein": 2.8,
+      "fat": 10,
+      "carbs": 3.5
+    },
+    "defaultServing": 50,
+    "price": 3.99,
+    "packageSize": 200,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "200ml"
+  },
+  {
+    "id": "chef-select-salata-pui-ciuperci",
+    "name": "Chef Select Salată Pui & Ciuperci",
+    "brand": "Chef Select",
+    "category": "ready-meals",
+    "per100g": {
+      "kcal": 231,
+      "protein": 4.6,
+      "fat": 21.2,
+      "carbs": 4.3
+    },
+    "defaultServing": 250,
+    "price": 12.99,
+    "packageSize": 250,
+    "tags": [
+      "ready-to-eat"
+    ],
+    "unit": "g",
+    "priceUnit": "250g"
+  },
+  {
+    "id": "chef-select-salata-caesar",
+    "name": "Chef Select Salată Caesar",
+    "brand": "Chef Select",
+    "category": "ready-meals",
+    "per100g": {
+      "kcal": 140,
+      "protein": 8,
+      "fat": 8,
+      "carbs": 9
+    },
+    "defaultServing": 200,
+    "price": 9.99,
+    "packageSize": 200,
+    "tags": [
+      "ready-to-eat"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "chef-select-gyros-pui",
+    "name": "Chef Select Gyros de Pui",
+    "brand": "Chef Select",
+    "category": "ready-meals",
+    "per100g": {
+      "kcal": 160,
+      "protein": 18,
+      "fat": 8,
+      "carbs": 4
+    },
+    "defaultServing": 200,
+    "price": 14.99,
+    "packageSize": 400,
+    "tags": [
+      "ready-to-eat",
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "400g"
+  },
+  {
+    "id": "chef-select-fajita-pui",
+    "name": "Chef Select Fajita Pui",
+    "brand": "Chef Select",
+    "category": "ready-meals",
+    "per100g": {
+      "kcal": 130,
+      "protein": 12,
+      "fat": 4,
+      "carbs": 12
+    },
+    "defaultServing": 200,
+    "price": 12.99,
+    "packageSize": 350,
+    "tags": [
+      "ready-to-eat"
+    ],
+    "unit": "g",
+    "priceUnit": "350g"
+  },
+  {
+    "id": "piept-pui-marinat",
+    "name": "Piept de Pui Marinat",
+    "brand": "Lidl",
+    "category": "carne",
+    "per100g": {
+      "kcal": 120,
+      "protein": 20,
+      "fat": 3.5,
+      "carbs": 2
+    },
+    "defaultServing": 150,
+    "price": 19.9,
+    "packageSize": 500,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "file-pui-crispy",
+    "name": "File Pui Crispy Congelat",
+    "brand": "Chef Select",
+    "category": "congelate",
+    "per100g": {
+      "kcal": 200,
+      "protein": 15,
+      "fat": 10,
+      "carbs": 14
+    },
+    "defaultServing": 150,
+    "price": 14.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "carnati-gratar-pui",
+    "name": "Cârnați de Pui pentru Grătar",
+    "brand": "Pikok",
+    "category": "carne",
+    "per100g": {
+      "kcal": 180,
+      "protein": 14,
+      "fat": 13,
+      "carbs": 2
+    },
+    "defaultServing": 100,
+    "price": 9.99,
+    "packageSize": 300,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "rosii-cherry",
+    "name": "Roșii Cherry",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 18,
+      "protein": 0.9,
+      "fat": 0.1,
+      "carbs": 3.9
+    },
+    "defaultServing": 100,
+    "price": 6.99,
+    "packageSize": 250,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "250g"
+  },
+  {
+    "id": "salata-mix-rucola",
+    "name": "Mix Salată / Rucola",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 25,
+      "protein": 2.5,
+      "fat": 0.7,
+      "carbs": 3.6
+    },
+    "defaultServing": 50,
+    "price": 5.99,
+    "packageSize": 100,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "100g"
+  },
+  {
+    "id": "varza-alba",
+    "name": "Varză Albă",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 25,
+      "protein": 1.3,
+      "fat": 0.1,
+      "carbs": 6
+    },
+    "defaultServing": 100,
+    "price": 2.49,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "dovlecei",
+    "name": "Dovlecei / Zucchini",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 17,
+      "protein": 1.2,
+      "fat": 0.3,
+      "carbs": 3.1
+    },
+    "defaultServing": 150,
+    "price": 5.99,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "vinete",
+    "name": "Vinete",
+    "brand": "Lidl",
+    "category": "legume",
+    "per100g": {
+      "kcal": 25,
+      "protein": 1,
+      "fat": 0.2,
+      "carbs": 6
+    },
+    "defaultServing": 150,
+    "price": 7.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "lamaie",
+    "name": "Lămâie",
+    "brand": "Lidl",
+    "category": "fructe",
+    "per100g": {
+      "kcal": 29,
+      "protein": 1.1,
+      "fat": 0.3,
+      "carbs": 9
+    },
+    "defaultServing": 30,
+    "price": 1.99,
+    "packageSize": 100,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "~100g"
+  },
+  {
+    "id": "mandarine",
+    "name": "Mandarine",
+    "brand": "Lidl",
+    "category": "fructe",
+    "per100g": {
+      "kcal": 53,
+      "protein": 0.8,
+      "fat": 0.3,
+      "carbs": 13
+    },
+    "defaultServing": 100,
+    "price": 5.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "pere",
+    "name": "Pere",
+    "brand": "Lidl",
+    "category": "fructe",
+    "per100g": {
+      "kcal": 57,
+      "protein": 0.4,
+      "fat": 0.1,
+      "carbs": 15
+    },
+    "defaultServing": 150,
+    "price": 7.99,
+    "packageSize": 1,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "1kg"
+  },
+  {
+    "id": "croissant-unt",
+    "name": "Croissant cu Unt",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 400,
+      "protein": 8,
+      "fat": 21,
+      "carbs": 45
+    },
+    "defaultServing": 60,
+    "price": 1.99,
+    "packageSize": 60,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "60g"
+  },
+  {
+    "id": "chifle-simple",
+    "name": "Chifle Simple (6 buc)",
+    "brand": "Lidl",
+    "category": "panificatie",
+    "per100g": {
+      "kcal": 270,
+      "protein": 9,
+      "fat": 2,
+      "carbs": 52
+    },
+    "defaultServing": 50,
+    "price": 3.99,
+    "packageSize": 6,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "6 buc"
+  },
+  {
+    "id": "crownfield-bilute-ciocolata",
+    "name": "Crownfield Bilute Ciocolată",
+    "brand": "Crownfield",
+    "category": "cereale",
+    "per100g": {
+      "kcal": 390,
+      "protein": 7,
+      "fat": 5,
+      "carbs": 78
+    },
+    "defaultServing": 40,
+    "price": 7.29,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "crownfield-cornflakes",
+    "name": "Crownfield Corn Flakes",
+    "brand": "Crownfield",
+    "category": "cereale",
+    "per100g": {
+      "kcal": 378,
+      "protein": 7,
+      "fat": 1,
+      "carbs": 84
+    },
+    "defaultServing": 40,
+    "price": 5.49,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "gem-capsuni",
+    "name": "Gem de Căpșuni",
+    "brand": "Lidl",
+    "category": "bacanie",
+    "per100g": {
+      "kcal": 250,
+      "protein": 0.3,
+      "fat": 0.1,
+      "carbs": 62
+    },
+    "defaultServing": 20,
+    "price": 5.99,
+    "packageSize": 450,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "450g"
+  },
+  {
+    "id": "baresa-rosii-pasate-500",
+    "name": "Baresa Roșii Pasate 500g",
+    "brand": "Baresa",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 25,
+      "protein": 1,
+      "fat": 0.1,
+      "carbs": 4.5
+    },
+    "defaultServing": 100,
+    "price": 2.79,
+    "packageSize": 500,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "500g"
+  },
+  {
+    "id": "chef-select-masline-fara-samburi",
+    "name": "Chef Select Măsline fără Sâmburi",
+    "brand": "Chef Select",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 130,
+      "protein": 1,
+      "fat": 13,
+      "carbs": 1.5
+    },
+    "defaultServing": 30,
+    "price": 7.99,
+    "packageSize": 150,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "150g"
+  },
+  {
+    "id": "sos-pesto-verde",
+    "name": "Sos Pesto Verde",
+    "brand": "Combino",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 370,
+      "protein": 5,
+      "fat": 35,
+      "carbs": 7
+    },
+    "defaultServing": 30,
+    "price": 6.99,
+    "packageSize": 190,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "190g"
+  },
+  {
+    "id": "sos-carbonara",
+    "name": "Sos Carbonara",
+    "brand": "Combino",
+    "category": "conserve",
+    "per100g": {
+      "kcal": 120,
+      "protein": 3,
+      "fat": 9,
+      "carbs": 6
+    },
+    "defaultServing": 75,
+    "price": 5.99,
+    "packageSize": 300,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "300g"
+  },
+  {
+    "id": "alesto-mix-caju-arahide",
+    "name": "Alesto Mix Caju și Arahide",
+    "brand": "Alesto",
+    "category": "snacks",
+    "per100g": {
+      "kcal": 560,
+      "protein": 22,
+      "fat": 46,
+      "carbs": 22
+    },
+    "defaultServing": 30,
+    "price": 6.99,
+    "packageSize": 200,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "200g"
+  },
+  {
+    "id": "pilos-iaurt-fructe-capsuni",
+    "name": "Pilos Iaurt cu Căpșuni",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 90,
+      "protein": 3,
+      "fat": 2.5,
+      "carbs": 13
+    },
+    "defaultServing": 150,
+    "price": 2.49,
+    "packageSize": 150,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "150g"
+  },
+  {
+    "id": "pilos-iaurt-fructe-piersici",
+    "name": "Pilos Iaurt cu Piersici",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 90,
+      "protein": 3,
+      "fat": 2.5,
+      "carbs": 13
+    },
+    "defaultServing": 150,
+    "price": 2.49,
+    "packageSize": 150,
+    "tags": [],
+    "unit": "g",
+    "priceUnit": "150g"
+  },
+  {
+    "id": "milbona-iaurt-grecesc-bio-lowfat",
+    "name": "Milbona Iaurt Grecesc Bio Low Fat",
+    "brand": "Milbona",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 58,
+      "protein": 10,
+      "fat": 0.2,
+      "carbs": 4
+    },
+    "defaultServing": 200,
+    "price": 7.99,
+    "packageSize": 400,
+    "tags": [
+      "high-protein",
+      "low-fat"
+    ],
+    "unit": "g",
+    "priceUnit": "400g"
+  },
+  {
+    "id": "pilos-ricotta",
+    "name": "Pilos Ricotta",
+    "brand": "Pilos",
+    "category": "lactate",
+    "per100g": {
+      "kcal": 146,
+      "protein": 11,
+      "fat": 10,
+      "carbs": 3
+    },
+    "defaultServing": 100,
+    "price": 6.49,
+    "packageSize": 250,
+    "tags": [
+      "high-protein"
+    ],
+    "unit": "g",
+    "priceUnit": "250g"
   }
 ]

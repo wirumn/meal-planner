@@ -3,17 +3,26 @@ import { useCustomProducts } from '../hooks/useCustomProducts'
 import CustomProductForm from './CustomProductForm'
 
 const CATEGORIES = [
-  { id: 'all',              label: 'Toate'      },
-  { id: 'lactate',          label: 'Lactate'    },
-  { id: 'bauturi-proteice', label: 'Proteice'   },
-  { id: 'carne',            label: 'Carne'      },
-  { id: 'peste',            label: 'Pește'      },
-  { id: 'panificatie',      label: 'Pâine'      },
-  { id: 'legume',           label: 'Legume'     },
-  { id: 'fructe',           label: 'Fructe'     },
-  { id: 'conserve',         label: 'Conserve'   },
-  { id: 'condimente',       label: 'Condimente' },
-  { id: 'altele',           label: 'Altele'     },
+  { id: 'all',              label: 'Toate'       },
+  { id: 'lactate',          label: 'Lactate'     },
+  { id: 'bauturi-proteice', label: 'Proteice'    },
+  { id: 'carne',            label: 'Carne'       },
+  { id: 'mezeluri',         label: 'Mezeluri'    },
+  { id: 'peste',            label: 'Pește'       },
+  { id: 'vegetale',         label: 'Vegetale'    },
+  { id: 'panificatie',      label: 'Panificație' },
+  { id: 'paste',            label: 'Paste & Orez'},
+  { id: 'conserve',         label: 'Conserve'    },
+  { id: 'legume',           label: 'Legume'      },
+  { id: 'fructe',           label: 'Fructe'      },
+  { id: 'condimente',       label: 'Condimente'  },
+  { id: 'snacks',           label: 'Snacks'      },
+  { id: 'cereale',          label: 'Cereale'     },
+  { id: 'bacanie',          label: 'Băcănie'     },
+  { id: 'bauturi',          label: 'Băuturi'     },
+  { id: 'congelate',        label: 'Congelate'   },
+  { id: 'ready-meals',      label: 'Ready Meals' },
+  { id: 'altele',           label: 'Altele'      },
 ]
 
 export default function ProductPicker({ onAdd, onClose }) {
