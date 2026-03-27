@@ -38,8 +38,8 @@ function guessCategory(tags = []) {
   return 'altele'
 }
 
-async function searchOFF(query, onlyLidl) {
-  const cacheKey = `off-cache-${query}-${onlyLidl}`
+async function searchOFF(query) {
+  const cacheKey = `off-cache-${query}`
   try {
     const cached = sessionStorage.getItem(cacheKey)
     if (cached) return JSON.parse(cached)
@@ -48,10 +48,9 @@ async function searchOFF(query, onlyLidl) {
   const params = new URLSearchParams({
     search_terms: query,
     fields: 'code,product_name,product_name_ro,product_name_en,brands,nutriments,image_front_small_url,categories_tags,quantity',
-    page_size: '30',
+    page_size: '40',
     json: '1',
   })
-  if (onlyLidl) params.set('stores_tags', 'lidl')
 
   const res = await fetch(`https://world.openfoodfacts.org/api/v2/search?${params}`)
   if (!res.ok) throw new Error('OFF error')
@@ -79,7 +78,9 @@ async function searchOFF(query, onlyLidl) {
     })
     .filter(p => p.name && !nonLatinRe.test(p.name))
 
-  try { sessionStorage.setItem(cacheKey, JSON.stringify(products)) } catch {}
+  if (products.length > 0) {
+    try { sessionStorage.setItem(cacheKey, JSON.stringify(products)) } catch {}
+  }
   return products
 }
 
@@ -97,7 +98,6 @@ export default function ProductPicker({ onAdd, onClose }) {
 
   // Online tab state
   const [offQuery, setOffQuery] = useState('')
-  const [onlyLidl, setOnlyLidl] = useState(false)
   const [offResults, setOffResults] = useState([])
   const [offLoading, setOffLoading] = useState(false)
   const [offError, setOffError] = useState('')
@@ -142,14 +142,14 @@ export default function ProductPicker({ onAdd, onClose }) {
     setActiveTab('local')
   }
 
-  function runOFFSearch(query, lidlOnly) {
+  function runOFFSearch(query) {
     clearTimeout(debounceRef.current)
     setOffError('')
     if (!query.trim()) { setOffResults([]); return }
     debounceRef.current = setTimeout(async () => {
       setOffLoading(true)
       try {
-        const results = await searchOFF(query.trim(), lidlOnly)
+        const results = await searchOFF(query.trim())
         setOffResults(results)
       } catch {
         setOffError('Eroare la căutare. Verifică conexiunea.')
@@ -162,12 +162,7 @@ export default function ProductPicker({ onAdd, onClose }) {
 
   function handleOffQueryChange(value) {
     setOffQuery(value)
-    runOFFSearch(value, onlyLidl)
-  }
-
-  function handleLidlToggle(checked) {
-    setOnlyLidl(checked)
-    runOFFSearch(offQuery, checked)
+    runOFFSearch(value)
   }
 
   function selectOFFProduct(offProd) {
@@ -403,8 +398,6 @@ export default function ProductPicker({ onAdd, onClose }) {
               <OFFSearchView
                 query={offQuery}
                 onQueryChange={handleOffQueryChange}
-                onlyLidl={onlyLidl}
-                onLidlToggle={handleLidlToggle}
                 results={offResults}
                 loading={offLoading}
                 error={offError}
@@ -425,7 +418,7 @@ export default function ProductPicker({ onAdd, onClose }) {
   )
 }
 
-function OFFSearchView({ query, onQueryChange, onlyLidl, onLidlToggle, results, loading, error, onSelect }) {
+function OFFSearchView({ query, onQueryChange, results, loading, error, onSelect }) {
   return (
     <>
       <div className="px-4 py-3 border-b border-zinc-800 bg-zinc-900 shrink-0">
@@ -438,20 +431,12 @@ function OFFSearchView({ query, onQueryChange, onlyLidl, onLidlToggle, results, 
             type="text"
             value={query}
             onChange={e => onQueryChange(e.target.value)}
-            placeholder="Caută pe Open Food Facts..."
+            placeholder="chicken, yogurt, pasta, skyr..."
             autoFocus
             className="w-full bg-zinc-800 border border-zinc-700 rounded-xl pl-9 pr-4 py-2.5 text-sm text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-400 transition-colors"
           />
         </div>
-        <label className="flex items-center gap-2 mt-2.5 cursor-pointer select-none">
-          <input
-            type="checkbox"
-            checked={onlyLidl}
-            onChange={e => onLidlToggle(e.target.checked)}
-            className="w-4 h-4 rounded border-zinc-600 bg-zinc-800 accent-amber-400"
-          />
-          <span className="text-xs text-zinc-400">Doar Lidl</span>
-        </label>
+        <p className="text-xs text-zinc-600 mt-1.5 px-1">Caută în engleză pentru rezultate mai bune</p>
       </div>
 
       <div className="flex-1 overflow-y-auto">
@@ -464,8 +449,8 @@ function OFFSearchView({ query, onQueryChange, onlyLidl, onLidlToggle, results, 
         ) : !query.trim() ? (
           <div className="flex flex-col items-center justify-center h-48 text-zinc-600 text-sm px-6 text-center">
             <span className="text-3xl mb-3">🔍</span>
-            <span className="text-zinc-500">Caută produse cu valori nutriționale</span>
-            <span className="text-xs mt-1">Filtrat pentru România · Open Food Facts</span>
+            <span className="text-zinc-500">Caută în engleză pentru rezultate mai bune</span>
+            <span className="text-xs mt-2 text-zinc-600">ex: chicken breast, greek yogurt, tuna, pasta</span>
           </div>
         ) : results.length === 0 ? (
           <div className="flex items-center justify-center h-32 text-zinc-500 text-sm">
