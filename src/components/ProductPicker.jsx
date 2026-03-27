@@ -47,8 +47,8 @@ async function searchOFF(query, onlyLidl) {
 
   const params = new URLSearchParams({
     search_terms: query,
-    fields: 'code,product_name,brands,nutriments,image_front_small_url,categories_tags,quantity',
-    page_size: '20',
+    fields: 'code,product_name,product_name_ro,product_name_en,brands,nutriments,image_front_small_url,categories_tags,quantity',
+    page_size: '30',
     json: '1',
   })
   if (onlyLidl) params.set('stores_tags', 'lidl')
@@ -57,20 +57,27 @@ async function searchOFF(query, onlyLidl) {
   if (!res.ok) throw new Error('OFF error')
   const data = await res.json()
 
+  // Non-Latin scripts: Cyrillic, Arabic, CJK, Korean, Hindi, Thai, Greek, Hebrew
+  const nonLatinRe = /[\u0400-\u04FF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u30FF\uAC00-\uD7AF\u0900-\u097F\u0E00-\u0E7F\u0370-\u03FF\u0590-\u05FF]/
+
   const products = (data.products || [])
-    .map(p => ({
-      code: p.code || '',
-      name: p.product_name || '',
-      brand: p.brands || '',
-      kcal: p.nutriments?.['energy-kcal_100g'] ?? null,
-      protein: p.nutriments?.proteins_100g ?? null,
-      fat: p.nutriments?.fat_100g ?? null,
-      carbs: p.nutriments?.carbohydrates_100g ?? null,
-      image: p.image_front_small_url || null,
-      quantity: p.quantity || '',
-      categories: p.categories_tags || [],
-    }))
-    .filter(p => p.name)
+    .map(p => {
+      // Prefer Romanian name, then English, then generic
+      const name = p.product_name_ro || p.product_name_en || p.product_name || ''
+      return {
+        code: p.code || '',
+        name,
+        brand: p.brands || '',
+        kcal: p.nutriments?.['energy-kcal_100g'] ?? null,
+        protein: p.nutriments?.proteins_100g ?? null,
+        fat: p.nutriments?.fat_100g ?? null,
+        carbs: p.nutriments?.carbohydrates_100g ?? null,
+        image: p.image_front_small_url || null,
+        quantity: p.quantity || '',
+        categories: p.categories_tags || [],
+      }
+    })
+    .filter(p => p.name && !nonLatinRe.test(p.name))
 
   try { sessionStorage.setItem(cacheKey, JSON.stringify(products)) } catch {}
   return products
