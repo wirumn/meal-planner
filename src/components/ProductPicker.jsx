@@ -54,10 +54,7 @@ async function searchOFF(query, onlyLidl) {
   })
   if (onlyLidl) params.set('stores_tags', 'lidl')
 
-  const res = await fetch(
-    `https://world.openfoodfacts.org/api/v2/search?${params}`,
-    { headers: { 'User-Agent': 'MealPlanner/1.0 (https://wirumn.github.io/meal-planner/)' } }
-  )
+  const res = await fetch(`https://world.openfoodfacts.org/api/v2/search?${params}`)
   if (!res.ok) throw new Error('OFF error')
   const data = await res.json()
 
